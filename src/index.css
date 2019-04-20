@@ -14,3 +14,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+table{
+
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid white;
+  padding: 13px 10px 11px;
+  text-align: left;
+  user-select: none;
+}
+
+tbody td.selected {
+  background-color: #edf9ff;
+  box-shadow: 1px 0px 0 0 #b3def4, 0px 1px 0 0 #b3def4, 0px 0px 0 0 #b3def4, 1px 1px 0 0 #b3def4;
+}

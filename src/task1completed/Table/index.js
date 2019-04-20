@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 
 const HeaderCell = ({column}) => <th key={column.key}>{column.name}</th>
@@ -17,7 +17,8 @@ const Cell = ({row, column, styles}) => (
   </td>
 )
 
-class Table extends Component {
+
+class Table extends PureComponent {
   static propTypes = {
     columns: PropTypes.array,
     rows: PropTypes.array,

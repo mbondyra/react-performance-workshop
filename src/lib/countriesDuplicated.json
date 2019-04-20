@@ -1,0 +1,6711 @@
+
+  {
+    "currencies": [
+      {
+        "code": "AFN-2",
+        "name": "Afghan afghani-2",
+        "symbol": "؋-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/afg.svg",
+    "cioc": "AFG-2",
+    "name": "Afghanistan-2",
+    "topLevelDomain": [
+      ".af-2"
+    ],
+    "capital": "Kabul-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 27657145,
+    "demonym": "Afghan-2",
+    "area": 652230.0,
+    "borders": [
+      "IRN-2",
+      "PAK-2",
+      "TKM-2",
+      "UZB-2",
+      "TJK-2",
+      "CHN-2"
+    ],
+    "numericCode": "004-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ala.svg",
+    "cioc": "-2",
+    "name": "Åland Islands-2",
+    "topLevelDomain": [
+      ".ax-2"
+    ],
+    "capital": "Mariehamn-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 28875,
+    "demonym": "Ålandish-2",
+    "area": 1580.0,
+    "borders": [],
+    "numericCode": "248-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ALL-2",
+        "name": "Albanian lek-2",
+        "symbol": "L-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/alb.svg",
+    "cioc": "ALB-2",
+    "name": "Albania-2",
+    "topLevelDomain": [
+      ".al-2"
+    ],
+    "capital": "Tirana-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 2886026,
+    "demonym": "Albanian-2",
+    "area": 28748.0,
+    "borders": [
+      "MNE-2",
+      "GRC-2",
+      "MKD-2",
+      "KOS-2"
+    ],
+    "numericCode": "008-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DZD-2",
+        "name": "Algerian dinar-2",
+        "symbol": "د.ج-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dza.svg",
+    "cioc": "ALG-2",
+    "name": "Algeria-2",
+    "topLevelDomain": [
+      ".dz-2"
+    ],
+    "capital": "Algiers-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 40400000,
+    "demonym": "Algerian-2",
+    "area": 2381741.0,
+    "borders": [
+      "TUN-2",
+      "LBY-2",
+      "NER-2",
+      "ESH-2",
+      "MRT-2",
+      "MLI-2",
+      "MAR-2"
+    ],
+    "numericCode": "012-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United State Dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/asm.svg",
+    "cioc": "ASA-2",
+    "name": "American Samoa-2",
+    "topLevelDomain": [
+      ".as-2"
+    ],
+    "capital": "Pago Pago-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 57100,
+    "demonym": "American Samoan-2",
+    "area": 199.0,
+    "borders": [],
+    "numericCode": "016-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/and.svg",
+    "cioc": "AND-2",
+    "name": "Andorra-2",
+    "topLevelDomain": [
+      ".ad-2"
+    ],
+    "capital": "Andorra la Vella-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 78014,
+    "demonym": "Andorran-2",
+    "area": 468.0,
+    "borders": [
+      "FRA-2",
+      "ESP-2"
+    ],
+    "numericCode": "020-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AOA-2",
+        "name": "Angolan kwanza-2",
+        "symbol": "Kz-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ago.svg",
+    "cioc": "ANG-2",
+    "name": "Angola-2",
+    "topLevelDomain": [
+      ".ao-2"
+    ],
+    "capital": "Luanda-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 25868000,
+    "demonym": "Angolan-2",
+    "area": 1246700.0,
+    "borders": [
+      "COG-2",
+      "COD-2",
+      "ZMB-2",
+      "NAM-2"
+    ],
+    "numericCode": "024-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/aia.svg",
+    "cioc": "-2",
+    "name": "Anguilla-2",
+    "topLevelDomain": [
+      ".ai-2"
+    ],
+    "capital": "The Valley-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 13452,
+    "demonym": "Anguillian-2",
+    "area": 91.0,
+    "borders": [],
+    "numericCode": "660-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ata.svg",
+    "cioc": "-2",
+    "name": "Antarctica-2",
+    "topLevelDomain": [
+      ".aq-2"
+    ],
+    "capital": "-2",
+    "region": "Polar-2",
+    "subregion": "-2",
+    "population": 1000,
+    "demonym": "-2",
+    "area": 1.4E7,
+    "borders": [],
+    "numericCode": "010-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/atg.svg",
+    "cioc": "ANT-2",
+    "name": "Antigua and Barbuda-2",
+    "topLevelDomain": [
+      ".ag-2"
+    ],
+    "capital": "Saint John's-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 86295,
+    "demonym": "Antiguan, Barbudan-2",
+    "area": 442.0,
+    "borders": [],
+    "numericCode": "028-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ARS-2",
+        "name": "Argentine peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/arg.svg",
+    "cioc": "ARG-2",
+    "name": "Argentina-2",
+    "topLevelDomain": [
+      ".ar-2"
+    ],
+    "capital": "Buenos Aires-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 43590400,
+    "demonym": "Argentinean-2",
+    "area": 2780400.0,
+    "borders": [
+      "BOL-2",
+      "BRA-2",
+      "CHL-2",
+      "PRY-2",
+      "URY-2"
+    ],
+    "numericCode": "032-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AMD-2",
+        "name": "Armenian dram-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/arm.svg",
+    "cioc": "ARM-2",
+    "name": "Armenia-2",
+    "topLevelDomain": [
+      ".am-2"
+    ],
+    "capital": "Yerevan-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 2994400,
+    "demonym": "Armenian-2",
+    "area": 29743.0,
+    "borders": [
+      "AZE-2",
+      "GEO-2",
+      "IRN-2",
+      "TUR-2"
+    ],
+    "numericCode": "051-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AWG-2",
+        "name": "Aruban florin-2",
+        "symbol": "ƒ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/abw.svg",
+    "cioc": "ARU-2",
+    "name": "Aruba-2",
+    "topLevelDomain": [
+      ".aw-2"
+    ],
+    "capital": "Oranjestad-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 107394,
+    "demonym": "Aruban-2",
+    "area": 180.0,
+    "borders": [],
+    "numericCode": "533-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/aus.svg",
+    "cioc": "AUS-2",
+    "name": "Australia-2",
+    "topLevelDomain": [
+      ".au-2"
+    ],
+    "capital": "Canberra-2",
+    "region": "Oceania-2",
+    "subregion": "Australia and New Zealand-2",
+    "population": 24117360,
+    "demonym": "Australian-2",
+    "area": 7692024.0,
+    "borders": [],
+    "numericCode": "036-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/aut.svg",
+    "cioc": "AUT-2",
+    "name": "Austria-2",
+    "topLevelDomain": [
+      ".at-2"
+    ],
+    "capital": "Vienna-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 8725931,
+    "demonym": "Austrian-2",
+    "area": 83871.0,
+    "borders": [
+      "CZE-2",
+      "DEU-2",
+      "HUN-2",
+      "ITA-2",
+      "LIE-2",
+      "SVK-2",
+      "SVN-2",
+      "CHE-2"
+    ],
+    "numericCode": "040-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AZN-2",
+        "name": "Azerbaijani manat-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/aze.svg",
+    "cioc": "AZE-2",
+    "name": "Azerbaijan-2",
+    "topLevelDomain": [
+      ".az-2"
+    ],
+    "capital": "Baku-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 9730500,
+    "demonym": "Azerbaijani-2",
+    "area": 86600.0,
+    "borders": [
+      "ARM-2",
+      "GEO-2",
+      "IRN-2",
+      "RUS-2",
+      "TUR-2"
+    ],
+    "numericCode": "031-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BSD-2",
+        "name": "Bahamian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bhs.svg",
+    "cioc": "BAH-2",
+    "name": "Bahamas-2",
+    "topLevelDomain": [
+      ".bs-2"
+    ],
+    "capital": "Nassau-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 378040,
+    "demonym": "Bahamian-2",
+    "area": 13943.0,
+    "borders": [],
+    "numericCode": "044-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BHD-2",
+        "name": "Bahraini dinar-2",
+        "symbol": ".د.ب-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bhr.svg",
+    "cioc": "BRN-2",
+    "name": "Bahrain-2",
+    "topLevelDomain": [
+      ".bh-2"
+    ],
+    "capital": "Manama-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 1404900,
+    "demonym": "Bahraini-2",
+    "area": 765.0,
+    "borders": [],
+    "numericCode": "048-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BDT-2",
+        "name": "Bangladeshi taka-2",
+        "symbol": "৳-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bgd.svg",
+    "cioc": "BAN-2",
+    "name": "Bangladesh-2",
+    "topLevelDomain": [
+      ".bd-2"
+    ],
+    "capital": "Dhaka-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 161006790,
+    "demonym": "Bangladeshi-2",
+    "area": 147570.0,
+    "borders": [
+      "MMR-2",
+      "IND-2"
+    ],
+    "numericCode": "050-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BBD-2",
+        "name": "Barbadian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/brb.svg",
+    "cioc": "BAR-2",
+    "name": "Barbados-2",
+    "topLevelDomain": [
+      ".bb-2"
+    ],
+    "capital": "Bridgetown-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 285000,
+    "demonym": "Barbadian-2",
+    "area": 430.0,
+    "borders": [],
+    "numericCode": "052-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BYN-2",
+        "name": "New Belarusian ruble-2",
+        "symbol": "Br-2"
+      },
+      {
+        "code": "BYR-2",
+        "name": "Old Belarusian ruble-2",
+        "symbol": "Br-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/blr.svg",
+    "cioc": "BLR-2",
+    "name": "Belarus-2",
+    "topLevelDomain": [
+      ".by-2"
+    ],
+    "capital": "Minsk-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 9498700,
+    "demonym": "Belarusian-2",
+    "area": 207600.0,
+    "borders": [
+      "LVA-2",
+      "LTU-2",
+      "POL-2",
+      "RUS-2",
+      "UKR-2"
+    ],
+    "numericCode": "112-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bel.svg",
+    "cioc": "BEL-2",
+    "name": "Belgium-2",
+    "topLevelDomain": [
+      ".be-2"
+    ],
+    "capital": "Brussels-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 11319511,
+    "demonym": "Belgian-2",
+    "area": 30528.0,
+    "borders": [
+      "FRA-2",
+      "DEU-2",
+      "LUX-2",
+      "NLD-2"
+    ],
+    "numericCode": "056-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BZD-2",
+        "name": "Belize dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/blz.svg",
+    "cioc": "BIZ-2",
+    "name": "Belize-2",
+    "topLevelDomain": [
+      ".bz-2"
+    ],
+    "capital": "Belmopan-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 370300,
+    "demonym": "Belizean-2",
+    "area": 22966.0,
+    "borders": [
+      "GTM-2",
+      "MEX-2"
+    ],
+    "numericCode": "084-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ben.svg",
+    "cioc": "BEN-2",
+    "name": "Benin-2",
+    "topLevelDomain": [
+      ".bj-2"
+    ],
+    "capital": "Porto-Novo-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 10653654,
+    "demonym": "Beninese-2",
+    "area": 112622.0,
+    "borders": [
+      "BFA-2",
+      "NER-2",
+      "NGA-2",
+      "TGO-2"
+    ],
+    "numericCode": "204-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BMD-2",
+        "name": "Bermudian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bmu.svg",
+    "cioc": "BER-2",
+    "name": "Bermuda-2",
+    "topLevelDomain": [
+      ".bm-2"
+    ],
+    "capital": "Hamilton-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 61954,
+    "demonym": "Bermudian-2",
+    "area": 54.0,
+    "borders": [],
+    "numericCode": "060-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BTN-2",
+        "name": "Bhutanese ngultrum-2",
+        "symbol": "Nu.-2"
+      },
+      {
+        "code": "INR-2",
+        "name": "Indian rupee-2",
+        "symbol": "₹-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/btn.svg",
+    "cioc": "BHU-2",
+    "name": "Bhutan-2",
+    "topLevelDomain": [
+      ".bt-2"
+    ],
+    "capital": "Thimphu-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 775620,
+    "demonym": "Bhutanese-2",
+    "area": 38394.0,
+    "borders": [
+      "CHN-2",
+      "IND-2"
+    ],
+    "numericCode": "064-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BOB-2",
+        "name": "Bolivian boliviano-2",
+        "symbol": "Bs.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bol.svg",
+    "cioc": "BOL-2",
+    "name": "Bolivia (Plurinational State of)-2",
+    "topLevelDomain": [
+      ".bo-2"
+    ],
+    "capital": "Sucre-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 10985059,
+    "demonym": "Bolivian-2",
+    "area": 1098581.0,
+    "borders": [
+      "ARG-2",
+      "BRA-2",
+      "CHL-2",
+      "PRY-2",
+      "PER-2"
+    ],
+    "numericCode": "068-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bes.svg",
+    "name": "Bonaire, Sint Eustatius and Saba-2",
+    "topLevelDomain": [
+      ".an-2",
+      ".nl-2"
+    ],
+    "capital": "Kralendijk-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 17408,
+    "demonym": "Dutch-2",
+    "area": 294.0,
+    "borders": [],
+    "numericCode": "535-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BAM-2",
+        "name": "Bosnia and Herzegovina convertible mark-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bih.svg",
+    "cioc": "BIH-2",
+    "name": "Bosnia and Herzegovina-2",
+    "topLevelDomain": [
+      ".ba-2"
+    ],
+    "capital": "Sarajevo-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 3531159,
+    "demonym": "Bosnian, Herzegovinian-2",
+    "area": 51209.0,
+    "borders": [
+      "HRV-2",
+      "MNE-2",
+      "SRB-2"
+    ],
+    "numericCode": "070-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BWP-2",
+        "name": "Botswana pula-2",
+        "symbol": "P-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bwa.svg",
+    "cioc": "BOT-2",
+    "name": "Botswana-2",
+    "topLevelDomain": [
+      ".bw-2"
+    ],
+    "capital": "Gaborone-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 2141206,
+    "demonym": "Motswana-2",
+    "area": 582000.0,
+    "borders": [
+      "NAM-2",
+      "ZAF-2",
+      "ZMB-2",
+      "ZWE-2"
+    ],
+    "numericCode": "072-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NOK-2",
+        "name": "Norwegian krone-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bvt.svg",
+    "cioc": "-2",
+    "name": "Bouvet Island-2",
+    "topLevelDomain": [
+      ".bv-2"
+    ],
+    "capital": "-2",
+    "region": "-2",
+    "subregion": "-2",
+    "population": 0,
+    "demonym": "-2",
+    "area": 49.0,
+    "borders": [],
+    "numericCode": "074-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BRL-2",
+        "name": "Brazilian real-2",
+        "symbol": "R$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bra.svg",
+    "cioc": "BRA-2",
+    "name": "Brazil-2",
+    "topLevelDomain": [
+      ".br-2"
+    ],
+    "capital": "Brasília-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 206135893,
+    "demonym": "Brazilian-2",
+    "area": 8515767.0,
+    "borders": [
+      "ARG-2",
+      "BOL-2",
+      "COL-2",
+      "GUF-2",
+      "GUY-2",
+      "PRY-2",
+      "PER-2",
+      "SUR-2",
+      "URY-2",
+      "VEN-2"
+    ],
+    "numericCode": "076-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/iot.svg",
+    "cioc": "-2",
+    "name": "British Indian Ocean Territory-2",
+    "topLevelDomain": [
+      ".io-2"
+    ],
+    "capital": "Diego Garcia-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 3000,
+    "demonym": "Indian-2",
+    "area": 60.0,
+    "borders": [],
+    "numericCode": "086-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States Dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/umi.svg",
+    "cioc": "-2",
+    "name": "United States Minor Outlying Islands-2",
+    "topLevelDomain": [
+      ".us-2"
+    ],
+    "capital": "-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 300,
+    "demonym": "American-2",
+    "borders": [],
+    "numericCode": "581-2"
+  },
+  {
+    "currencies": [
+      {
+        "name": "[D]-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vgb.svg",
+    "cioc": "IVB-2",
+    "name": "Virgin Islands (British)-2",
+    "topLevelDomain": [
+      ".vg-2"
+    ],
+    "capital": "Road Town-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 28514,
+    "demonym": "Virgin Islander-2",
+    "area": 151.0,
+    "borders": [],
+    "numericCode": "092-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vir.svg",
+    "cioc": "ISV-2",
+    "name": "Virgin Islands (U.S.)-2",
+    "topLevelDomain": [
+      ".vi-2"
+    ],
+    "capital": "Charlotte Amalie-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 114743,
+    "demonym": "Virgin Islander-2",
+    "area": 346.36,
+    "borders": [],
+    "numericCode": "850-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BND-2",
+        "name": "Brunei dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "SGD-2",
+        "name": "Singapore dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/brn.svg",
+    "cioc": "BRU-2",
+    "name": "Brunei Darussalam-2",
+    "topLevelDomain": [
+      ".bn-2"
+    ],
+    "capital": "Bandar Seri Begawan-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 411900,
+    "demonym": "Bruneian-2",
+    "area": 5765.0,
+    "borders": [
+      "MYS-2"
+    ],
+    "numericCode": "096-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BGN-2",
+        "name": "Bulgarian lev-2",
+        "symbol": "лв-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bgr.svg",
+    "cioc": "BUL-2",
+    "name": "Bulgaria-2",
+    "topLevelDomain": [
+      ".bg-2"
+    ],
+    "capital": "Sofia-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 7153784,
+    "demonym": "Bulgarian-2",
+    "area": 110879.0,
+    "borders": [
+      "GRC-2",
+      "MKD-2",
+      "ROU-2",
+      "SRB-2",
+      "TUR-2"
+    ],
+    "numericCode": "100-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bfa.svg",
+    "cioc": "BUR-2",
+    "name": "Burkina Faso-2",
+    "topLevelDomain": [
+      ".bf-2"
+    ],
+    "capital": "Ouagadougou-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 19034397,
+    "demonym": "Burkinabe-2",
+    "area": 272967.0,
+    "borders": [
+      "BEN-2",
+      "CIV-2",
+      "GHA-2",
+      "MLI-2",
+      "NER-2",
+      "TGO-2"
+    ],
+    "numericCode": "854-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BIF-2",
+        "name": "Burundian franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/bdi.svg",
+    "cioc": "BDI-2",
+    "name": "Burundi-2",
+    "topLevelDomain": [
+      ".bi-2"
+    ],
+    "capital": "Bujumbura-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 10114505,
+    "demonym": "Burundian-2",
+    "area": 27834.0,
+    "borders": [
+      "COD-2",
+      "RWA-2",
+      "TZA-2"
+    ],
+    "numericCode": "108-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KHR-2",
+        "name": "Cambodian riel-2",
+        "symbol": "៛-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/khm.svg",
+    "cioc": "CAM-2",
+    "name": "Cambodia-2",
+    "topLevelDomain": [
+      ".kh-2"
+    ],
+    "capital": "Phnom Penh-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 15626444,
+    "demonym": "Cambodian-2",
+    "area": 181035.0,
+    "borders": [
+      "LAO-2",
+      "THA-2",
+      "VNM-2"
+    ],
+    "numericCode": "116-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cmr.svg",
+    "cioc": "CMR-2",
+    "name": "Cameroon-2",
+    "topLevelDomain": [
+      ".cm-2"
+    ],
+    "capital": "Yaoundé-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 22709892,
+    "demonym": "Cameroonian-2",
+    "area": 475442.0,
+    "borders": [
+      "CAF-2",
+      "TCD-2",
+      "COG-2",
+      "GNQ-2",
+      "GAB-2",
+      "NGA-2"
+    ],
+    "numericCode": "120-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CAD-2",
+        "name": "Canadian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/can.svg",
+    "cioc": "CAN-2",
+    "name": "Canada-2",
+    "topLevelDomain": [
+      ".ca-2"
+    ],
+    "capital": "Ottawa-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 36155487,
+    "demonym": "Canadian-2",
+    "area": 9984670.0,
+    "borders": [
+      "USA-2"
+    ],
+    "numericCode": "124-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CVE-2",
+        "name": "Cape Verdean escudo-2",
+        "symbol": "Esc-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cpv.svg",
+    "cioc": "CPV-2",
+    "name": "Cabo Verde-2",
+    "topLevelDomain": [
+      ".cv-2"
+    ],
+    "capital": "Praia-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 531239,
+    "demonym": "Cape Verdian-2",
+    "area": 4033.0,
+    "borders": [],
+    "numericCode": "132-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KYD-2",
+        "name": "Cayman Islands dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cym.svg",
+    "cioc": "CAY-2",
+    "name": "Cayman Islands-2",
+    "topLevelDomain": [
+      ".ky-2"
+    ],
+    "capital": "George Town-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 58238,
+    "demonym": "Caymanian-2",
+    "area": 264.0,
+    "borders": [],
+    "numericCode": "136-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/caf.svg",
+    "cioc": "CAF-2",
+    "name": "Central African Republic-2",
+    "topLevelDomain": [
+      ".cf-2"
+    ],
+    "capital": "Bangui-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 4998000,
+    "demonym": "Central African-2",
+    "area": 622984.0,
+    "borders": [
+      "CMR-2",
+      "TCD-2",
+      "COD-2",
+      "COG-2",
+      "SSD-2",
+      "SDN-2"
+    ],
+    "numericCode": "140-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tcd.svg",
+    "cioc": "CHA-2",
+    "name": "Chad-2",
+    "topLevelDomain": [
+      ".td-2"
+    ],
+    "capital": "N'Djamena-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 14497000,
+    "demonym": "Chadian-2",
+    "area": 1284000.0,
+    "borders": [
+      "CMR-2",
+      "CAF-2",
+      "LBY-2",
+      "NER-2",
+      "NGA-2",
+      "SSD-2"
+    ],
+    "numericCode": "148-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CLP-2",
+        "name": "Chilean peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/chl.svg",
+    "cioc": "CHI-2",
+    "name": "Chile-2",
+    "topLevelDomain": [
+      ".cl-2"
+    ],
+    "capital": "Santiago-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 18191900,
+    "demonym": "Chilean-2",
+    "area": 756102.0,
+    "borders": [
+      "ARG-2",
+      "BOL-2",
+      "PER-2"
+    ],
+    "numericCode": "152-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CNY-2",
+        "name": "Chinese yuan-2",
+        "symbol": "¥-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/chn.svg",
+    "cioc": "CHN-2",
+    "name": "China-2",
+    "topLevelDomain": [
+      ".cn-2"
+    ],
+    "capital": "Beijing-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 1377422166,
+    "demonym": "Chinese-2",
+    "area": 9640011.0,
+    "borders": [
+      "AFG-2",
+      "BTN-2",
+      "MMR-2",
+      "HKG-2",
+      "IND-2",
+      "KAZ-2",
+      "PRK-2",
+      "KGZ-2",
+      "LAO-2",
+      "MAC-2",
+      "MNG-2",
+      "PAK-2",
+      "RUS-2",
+      "TJK-2",
+      "VNM-2"
+    ],
+    "numericCode": "156-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cxr.svg",
+    "cioc": "-2",
+    "name": "Christmas Island-2",
+    "topLevelDomain": [
+      ".cx-2"
+    ],
+    "capital": "Flying Fish Cove-2",
+    "region": "Oceania-2",
+    "subregion": "Australia and New Zealand-2",
+    "population": 2072,
+    "demonym": "Christmas Island-2",
+    "area": 135.0,
+    "borders": [],
+    "numericCode": "162-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cck.svg",
+    "cioc": "-2",
+    "name": "Cocos (Keeling) Islands-2",
+    "topLevelDomain": [
+      ".cc-2"
+    ],
+    "capital": "West Island-2",
+    "region": "Oceania-2",
+    "subregion": "Australia and New Zealand-2",
+    "population": 550,
+    "demonym": "Cocos Islander-2",
+    "area": 14.0,
+    "borders": [],
+    "numericCode": "166-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "COP-2",
+        "name": "Colombian peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/col.svg",
+    "cioc": "COL-2",
+    "name": "Colombia-2",
+    "topLevelDomain": [
+      ".co-2"
+    ],
+    "capital": "Bogotá-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 48759958,
+    "demonym": "Colombian-2",
+    "area": 1141748.0,
+    "borders": [
+      "BRA-2",
+      "ECU-2",
+      "PAN-2",
+      "PER-2",
+      "VEN-2"
+    ],
+    "numericCode": "170-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KMF-2",
+        "name": "Comorian franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/com.svg",
+    "cioc": "COM-2",
+    "name": "Comoros-2",
+    "topLevelDomain": [
+      ".km-2"
+    ],
+    "capital": "Moroni-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 806153,
+    "demonym": "Comoran-2",
+    "area": 1862.0,
+    "borders": [],
+    "numericCode": "174-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cog.svg",
+    "cioc": "CGO-2",
+    "name": "Congo-2",
+    "topLevelDomain": [
+      ".cg-2"
+    ],
+    "capital": "Brazzaville-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 4741000,
+    "demonym": "Congolese-2",
+    "area": 342000.0,
+    "borders": [
+      "AGO-2",
+      "CMR-2",
+      "CAF-2",
+      "COD-2",
+      "GAB-2"
+    ],
+    "numericCode": "178-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CDF-2",
+        "name": "Congolese franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cod.svg",
+    "cioc": "COD-2",
+    "name": "Congo (Democratic Republic of the)-2",
+    "topLevelDomain": [
+      ".cd-2"
+    ],
+    "capital": "Kinshasa-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 85026000,
+    "demonym": "Congolese-2",
+    "area": 2344858.0,
+    "borders": [
+      "AGO-2",
+      "BDI-2",
+      "CAF-2",
+      "COG-2",
+      "RWA-2",
+      "SSD-2",
+      "TZA-2",
+      "UGA-2",
+      "ZMB-2"
+    ],
+    "numericCode": "180-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NZD-2",
+        "name": "New Zealand dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "CKD-2",
+        "name": "Cook Islands dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cok.svg",
+    "cioc": "COK-2",
+    "name": "Cook Islands-2",
+    "topLevelDomain": [
+      ".ck-2"
+    ],
+    "capital": "Avarua-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 18100,
+    "demonym": "Cook Islander-2",
+    "area": 236.0,
+    "borders": [],
+    "numericCode": "184-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CRC-2",
+        "name": "Costa Rican colón-2",
+        "symbol": "₡-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cri.svg",
+    "cioc": "CRC-2",
+    "name": "Costa Rica-2",
+    "topLevelDomain": [
+      ".cr-2"
+    ],
+    "capital": "San José-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 4890379,
+    "demonym": "Costa Rican-2",
+    "area": 51100.0,
+    "borders": [
+      "NIC-2",
+      "PAN-2"
+    ],
+    "numericCode": "188-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "HRK-2",
+        "name": "Croatian kuna-2",
+        "symbol": "kn-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hrv.svg",
+    "cioc": "CRO-2",
+    "name": "Croatia-2",
+    "topLevelDomain": [
+      ".hr-2"
+    ],
+    "capital": "Zagreb-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 4190669,
+    "demonym": "Croatian-2",
+    "area": 56594.0,
+    "borders": [
+      "BIH-2",
+      "HUN-2",
+      "MNE-2",
+      "SRB-2",
+      "SVN-2"
+    ],
+    "numericCode": "191-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CUC-2",
+        "name": "Cuban convertible peso-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "CUP-2",
+        "name": "Cuban peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cub.svg",
+    "cioc": "CUB-2",
+    "name": "Cuba-2",
+    "topLevelDomain": [
+      ".cu-2"
+    ],
+    "capital": "Havana-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 11239004,
+    "demonym": "Cuban-2",
+    "area": 109884.0,
+    "borders": [],
+    "numericCode": "192-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ANG-2",
+        "name": "Netherlands Antillean guilder-2",
+        "symbol": "ƒ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cuw.svg",
+    "cioc": "-2",
+    "name": "Curaçao-2",
+    "topLevelDomain": [
+      ".cw-2"
+    ],
+    "capital": "Willemstad-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 154843,
+    "demonym": "Dutch-2",
+    "area": 444.0,
+    "borders": [],
+    "numericCode": "531-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cyp.svg",
+    "cioc": "CYP-2",
+    "name": "Cyprus-2",
+    "topLevelDomain": [
+      ".cy-2"
+    ],
+    "capital": "Nicosia-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 847000,
+    "demonym": "Cypriot-2",
+    "area": 9251.0,
+    "borders": [
+      "GBR-2"
+    ],
+    "numericCode": "196-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CZK-2",
+        "name": "Czech koruna-2",
+        "symbol": "Kč-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/cze.svg",
+    "cioc": "CZE-2",
+    "name": "Czech Republic-2",
+    "topLevelDomain": [
+      ".cz-2"
+    ],
+    "capital": "Prague-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 10558524,
+    "demonym": "Czech-2",
+    "area": 78865.0,
+    "borders": [
+      "AUT-2",
+      "DEU-2",
+      "POL-2",
+      "SVK-2"
+    ],
+    "numericCode": "203-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DKK-2",
+        "name": "Danish krone-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dnk.svg",
+    "cioc": "DEN-2",
+    "name": "Denmark-2",
+    "topLevelDomain": [
+      ".dk-2"
+    ],
+    "capital": "Copenhagen-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 5717014,
+    "demonym": "Danish-2",
+    "area": 43094.0,
+    "borders": [
+      "DEU-2"
+    ],
+    "numericCode": "208-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DJF-2",
+        "name": "Djiboutian franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dji.svg",
+    "cioc": "DJI-2",
+    "name": "Djibouti-2",
+    "topLevelDomain": [
+      ".dj-2"
+    ],
+    "capital": "Djibouti-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 900000,
+    "demonym": "Djibouti-2",
+    "area": 23200.0,
+    "borders": [
+      "ERI-2",
+      "ETH-2",
+      "SOM-2"
+    ],
+    "numericCode": "262-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dma.svg",
+    "cioc": "DMA-2",
+    "name": "Dominica-2",
+    "topLevelDomain": [
+      ".dm-2"
+    ],
+    "capital": "Roseau-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 71293,
+    "demonym": "Dominican-2",
+    "area": 751.0,
+    "borders": [],
+    "numericCode": "212-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DOP-2",
+        "name": "Dominican peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dom.svg",
+    "cioc": "DOM-2",
+    "name": "Dominican Republic-2",
+    "topLevelDomain": [
+      ".do-2"
+    ],
+    "capital": "Santo Domingo-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 10075045,
+    "demonym": "Dominican-2",
+    "area": 48671.0,
+    "borders": [
+      "HTI-2"
+    ],
+    "numericCode": "214-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ecu.svg",
+    "cioc": "ECU-2",
+    "name": "Ecuador-2",
+    "topLevelDomain": [
+      ".ec-2"
+    ],
+    "capital": "Quito-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 16545799,
+    "demonym": "Ecuadorean-2",
+    "area": 276841.0,
+    "borders": [
+      "COL-2",
+      "PER-2"
+    ],
+    "numericCode": "218-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EGP-2",
+        "name": "Egyptian pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/egy.svg",
+    "cioc": "EGY-2",
+    "name": "Egypt-2",
+    "topLevelDomain": [
+      ".eg-2"
+    ],
+    "capital": "Cairo-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 91290000,
+    "demonym": "Egyptian-2",
+    "area": 1002450.0,
+    "borders": [
+      "ISR-2",
+      "LBY-2",
+      "SDN-2"
+    ],
+    "numericCode": "818-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/slv.svg",
+    "cioc": "ESA-2",
+    "name": "El Salvador-2",
+    "topLevelDomain": [
+      ".sv-2"
+    ],
+    "capital": "San Salvador-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 6520675,
+    "demonym": "Salvadoran-2",
+    "area": 21041.0,
+    "borders": [
+      "GTM-2",
+      "HND-2"
+    ],
+    "numericCode": "222-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gnq.svg",
+    "cioc": "GEQ-2",
+    "name": "Equatorial Guinea-2",
+    "topLevelDomain": [
+      ".gq-2"
+    ],
+    "capital": "Malabo-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 1222442,
+    "demonym": "Equatorial Guinean-2",
+    "area": 28051.0,
+    "borders": [
+      "CMR-2",
+      "GAB-2"
+    ],
+    "numericCode": "226-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ERN-2",
+        "name": "Eritrean nakfa-2",
+        "symbol": "Nfk-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/eri.svg",
+    "cioc": "ERI-2",
+    "name": "Eritrea-2",
+    "topLevelDomain": [
+      ".er-2"
+    ],
+    "capital": "Asmara-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 5352000,
+    "demonym": "Eritrean-2",
+    "area": 117600.0,
+    "borders": [
+      "DJI-2",
+      "ETH-2",
+      "SDN-2"
+    ],
+    "numericCode": "232-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/est.svg",
+    "cioc": "EST-2",
+    "name": "Estonia-2",
+    "topLevelDomain": [
+      ".ee-2"
+    ],
+    "capital": "Tallinn-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 1315944,
+    "demonym": "Estonian-2",
+    "area": 45227.0,
+    "borders": [
+      "LVA-2",
+      "RUS-2"
+    ],
+    "numericCode": "233-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ETB-2",
+        "name": "Ethiopian birr-2",
+        "symbol": "Br-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/eth.svg",
+    "cioc": "ETH-2",
+    "name": "Ethiopia-2",
+    "topLevelDomain": [
+      ".et-2"
+    ],
+    "capital": "Addis Ababa-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 92206005,
+    "demonym": "Ethiopian-2",
+    "area": 1104300.0,
+    "borders": [
+      "DJI-2",
+      "ERI-2",
+      "KEN-2",
+      "SOM-2",
+      "SSD-2",
+      "SDN-2"
+    ],
+    "numericCode": "231-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "FKP-2",
+        "name": "Falkland Islands pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/flk.svg",
+    "cioc": "-2",
+    "name": "Falkland Islands (Malvinas)-2",
+    "topLevelDomain": [
+      ".fk-2"
+    ],
+    "capital": "Stanley-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 2563,
+    "demonym": "Falkland Islander-2",
+    "area": 12173.0,
+    "borders": [],
+    "numericCode": "238-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DKK-2",
+        "name": "Danish krone-2",
+        "symbol": "kr-2"
+      },
+      {
+        "code": "(none)-2",
+        "name": "Faroese króna-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/fro.svg",
+    "cioc": "-2",
+    "name": "Faroe Islands-2",
+    "topLevelDomain": [
+      ".fo-2"
+    ],
+    "capital": "Tórshavn-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 49376,
+    "demonym": "Faroese-2",
+    "area": 1393.0,
+    "borders": [],
+    "numericCode": "234-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "FJD-2",
+        "name": "Fijian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/fji.svg",
+    "cioc": "FIJ-2",
+    "name": "Fiji-2",
+    "topLevelDomain": [
+      ".fj-2"
+    ],
+    "capital": "Suva-2",
+    "region": "Oceania-2",
+    "subregion": "Melanesia-2",
+    "population": 867000,
+    "demonym": "Fijian-2",
+    "area": 18272.0,
+    "borders": [],
+    "numericCode": "242-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/fin.svg",
+    "cioc": "FIN-2",
+    "name": "Finland-2",
+    "topLevelDomain": [
+      ".fi-2"
+    ],
+    "capital": "Helsinki-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 5491817,
+    "demonym": "Finnish-2",
+    "area": 338424.0,
+    "borders": [
+      "NOR-2",
+      "SWE-2",
+      "RUS-2"
+    ],
+    "numericCode": "246-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/fra.svg",
+    "cioc": "FRA-2",
+    "name": "France-2",
+    "topLevelDomain": [
+      ".fr-2"
+    ],
+    "capital": "Paris-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 66710000,
+    "demonym": "French-2",
+    "area": 640679.0,
+    "borders": [
+      "AND-2",
+      "BEL-2",
+      "DEU-2",
+      "ITA-2",
+      "LUX-2",
+      "MCO-2",
+      "ESP-2",
+      "CHE-2"
+    ],
+    "numericCode": "250-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/guf.svg",
+    "cioc": "-2",
+    "name": "French Guiana-2",
+    "topLevelDomain": [
+      ".gf-2"
+    ],
+    "capital": "Cayenne-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 254541,
+    "demonym": "-2",
+    "borders": [
+      "BRA-2",
+      "SUR-2"
+    ],
+    "numericCode": "254-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XPF-2",
+        "name": "CFP franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pyf.svg",
+    "cioc": "-2",
+    "name": "French Polynesia-2",
+    "topLevelDomain": [
+      ".pf-2"
+    ],
+    "capital": "Papeetē-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 271800,
+    "demonym": "French Polynesian-2",
+    "area": 4167.0,
+    "borders": [],
+    "numericCode": "258-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/atf.svg",
+    "cioc": "-2",
+    "name": "French Southern Territories-2",
+    "topLevelDomain": [
+      ".tf-2"
+    ],
+    "capital": "Port-aux-Français-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 140,
+    "demonym": "French-2",
+    "area": 7747.0,
+    "borders": [],
+    "numericCode": "260-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XAF-2",
+        "name": "Central African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gab.svg",
+    "cioc": "GAB-2",
+    "name": "Gabon-2",
+    "topLevelDomain": [
+      ".ga-2"
+    ],
+    "capital": "Libreville-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 1802278,
+    "demonym": "Gabonese-2",
+    "area": 267668.0,
+    "borders": [
+      "CMR-2",
+      "COG-2",
+      "GNQ-2"
+    ],
+    "numericCode": "266-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GMD-2",
+        "name": "Gambian dalasi-2",
+        "symbol": "D-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gmb.svg",
+    "cioc": "GAM-2",
+    "name": "Gambia-2",
+    "topLevelDomain": [
+      ".gm-2"
+    ],
+    "capital": "Banjul-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 1882450,
+    "demonym": "Gambian-2",
+    "area": 11295.0,
+    "borders": [
+      "SEN-2"
+    ],
+    "numericCode": "270-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GEL-2",
+        "name": "Georgian Lari-2",
+        "symbol": "ლ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/geo.svg",
+    "cioc": "GEO-2",
+    "name": "Georgia-2",
+    "topLevelDomain": [
+      ".ge-2"
+    ],
+    "capital": "Tbilisi-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 3720400,
+    "demonym": "Georgian-2",
+    "area": 69700.0,
+    "borders": [
+      "ARM-2",
+      "AZE-2",
+      "RUS-2",
+      "TUR-2"
+    ],
+    "numericCode": "268-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/deu.svg",
+    "cioc": "GER-2",
+    "name": "Germany-2",
+    "topLevelDomain": [
+      ".de-2"
+    ],
+    "capital": "Berlin-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 81770900,
+    "demonym": "German-2",
+    "area": 357114.0,
+    "borders": [
+      "AUT-2",
+      "BEL-2",
+      "CZE-2",
+      "DNK-2",
+      "FRA-2",
+      "LUX-2",
+      "NLD-2",
+      "POL-2",
+      "CHE-2"
+    ],
+    "numericCode": "276-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GHS-2",
+        "name": "Ghanaian cedi-2",
+        "symbol": "₵-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gha.svg",
+    "cioc": "GHA-2",
+    "name": "Ghana-2",
+    "topLevelDomain": [
+      ".gh-2"
+    ],
+    "capital": "Accra-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 27670174,
+    "demonym": "Ghanaian-2",
+    "area": 238533.0,
+    "borders": [
+      "BFA-2",
+      "CIV-2",
+      "TGO-2"
+    ],
+    "numericCode": "288-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GIP-2",
+        "name": "Gibraltar pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gib.svg",
+    "cioc": "-2",
+    "name": "Gibraltar-2",
+    "topLevelDomain": [
+      ".gi-2"
+    ],
+    "capital": "Gibraltar-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 33140,
+    "demonym": "Gibraltar-2",
+    "area": 6.0,
+    "borders": [
+      "ESP-2"
+    ],
+    "numericCode": "292-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/grc.svg",
+    "cioc": "GRE-2",
+    "name": "Greece-2",
+    "topLevelDomain": [
+      ".gr-2"
+    ],
+    "capital": "Athens-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 10858018,
+    "demonym": "Greek-2",
+    "area": 131990.0,
+    "borders": [
+      "ALB-2",
+      "BGR-2",
+      "TUR-2",
+      "MKD-2"
+    ],
+    "numericCode": "300-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DKK-2",
+        "name": "Danish krone-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/grl.svg",
+    "cioc": "-2",
+    "name": "Greenland-2",
+    "topLevelDomain": [
+      ".gl-2"
+    ],
+    "capital": "Nuuk-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 55847,
+    "demonym": "Greenlandic-2",
+    "area": 2166086.0,
+    "borders": [],
+    "numericCode": "304-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/grd.svg",
+    "cioc": "GRN-2",
+    "name": "Grenada-2",
+    "topLevelDomain": [
+      ".gd-2"
+    ],
+    "capital": "St. George's-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 103328,
+    "demonym": "Grenadian-2",
+    "area": 344.0,
+    "borders": [],
+    "numericCode": "308-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/glp.svg",
+    "cioc": "-2",
+    "name": "Guadeloupe-2",
+    "topLevelDomain": [
+      ".gp-2"
+    ],
+    "capital": "Basse-Terre-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 400132,
+    "demonym": "Guadeloupian-2",
+    "borders": [],
+    "numericCode": "312-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gum.svg",
+    "cioc": "GUM-2",
+    "name": "Guam-2",
+    "topLevelDomain": [
+      ".gu-2"
+    ],
+    "capital": "Hagåtña-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 184200,
+    "demonym": "Guamanian-2",
+    "area": 549.0,
+    "borders": [],
+    "numericCode": "316-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GTQ-2",
+        "name": "Guatemalan quetzal-2",
+        "symbol": "Q-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gtm.svg",
+    "cioc": "GUA-2",
+    "name": "Guatemala-2",
+    "topLevelDomain": [
+      ".gt-2"
+    ],
+    "capital": "Guatemala City-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 16176133,
+    "demonym": "Guatemalan-2",
+    "area": 108889.0,
+    "borders": [
+      "BLZ-2",
+      "SLV-2",
+      "HND-2",
+      "MEX-2"
+    ],
+    "numericCode": "320-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      },
+      {
+        "code": "(none)-2",
+        "name": "Guernsey pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ggy.svg",
+    "cioc": "-2",
+    "name": "Guernsey-2",
+    "topLevelDomain": [
+      ".gg-2"
+    ],
+    "capital": "St. Peter Port-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 62999,
+    "demonym": "Channel Islander-2",
+    "area": 78.0,
+    "borders": [],
+    "numericCode": "831-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GNF-2",
+        "name": "Guinean franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gin.svg",
+    "cioc": "GUI-2",
+    "name": "Guinea-2",
+    "topLevelDomain": [
+      ".gn-2"
+    ],
+    "capital": "Conakry-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 12947000,
+    "demonym": "Guinean-2",
+    "area": 245857.0,
+    "borders": [
+      "CIV-2",
+      "GNB-2",
+      "LBR-2",
+      "MLI-2",
+      "SEN-2",
+      "SLE-2"
+    ],
+    "numericCode": "324-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gnb.svg",
+    "cioc": "GBS-2",
+    "name": "Guinea-Bissau-2",
+    "topLevelDomain": [
+      ".gw-2"
+    ],
+    "capital": "Bissau-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 1547777,
+    "demonym": "Guinea-Bissauan-2",
+    "area": 36125.0,
+    "borders": [
+      "GIN-2",
+      "SEN-2"
+    ],
+    "numericCode": "624-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GYD-2",
+        "name": "Guyanese dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/guy.svg",
+    "cioc": "GUY-2",
+    "name": "Guyana-2",
+    "topLevelDomain": [
+      ".gy-2"
+    ],
+    "capital": "Georgetown-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 746900,
+    "demonym": "Guyanese-2",
+    "area": 214969.0,
+    "borders": [
+      "BRA-2",
+      "SUR-2",
+      "VEN-2"
+    ],
+    "numericCode": "328-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "HTG-2",
+        "name": "Haitian gourde-2",
+        "symbol": "G-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hti.svg",
+    "cioc": "HAI-2",
+    "name": "Haiti-2",
+    "topLevelDomain": [
+      ".ht-2"
+    ],
+    "capital": "Port-au-Prince-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 11078033,
+    "demonym": "Haitian-2",
+    "area": 27750.0,
+    "borders": [
+      "DOM-2"
+    ],
+    "numericCode": "332-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hmd.svg",
+    "cioc": "-2",
+    "name": "Heard Island and McDonald Islands-2",
+    "topLevelDomain": [
+      ".hm-2",
+      ".aq-2"
+    ],
+    "capital": "-2",
+    "region": "-2",
+    "subregion": "-2",
+    "population": 0,
+    "demonym": "Heard and McDonald Islander-2",
+    "area": 412.0,
+    "borders": [],
+    "numericCode": "334-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vat.svg",
+    "cioc": "-2",
+    "name": "Holy See-2",
+    "topLevelDomain": [
+      ".va-2"
+    ],
+    "capital": "Rome-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 451,
+    "demonym": "-2",
+    "area": 0.44,
+    "borders": [
+      "ITA-2"
+    ],
+    "numericCode": "336-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "HNL-2",
+        "name": "Honduran lempira-2",
+        "symbol": "L-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hnd.svg",
+    "cioc": "HON-2",
+    "name": "Honduras-2",
+    "topLevelDomain": [
+      ".hn-2"
+    ],
+    "capital": "Tegucigalpa-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 8576532,
+    "demonym": "Honduran-2",
+    "area": 112492.0,
+    "borders": [
+      "GTM-2",
+      "SLV-2",
+      "NIC-2"
+    ],
+    "numericCode": "340-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "HKD-2",
+        "name": "Hong Kong dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hkg.svg",
+    "cioc": "HKG-2",
+    "name": "Hong Kong-2",
+    "topLevelDomain": [
+      ".hk-2"
+    ],
+    "capital": "City of Victoria-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 7324300,
+    "demonym": "Chinese-2",
+    "area": 1104.0,
+    "borders": [
+      "CHN-2"
+    ],
+    "numericCode": "344-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "HUF-2",
+        "name": "Hungarian forint-2",
+        "symbol": "Ft-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/hun.svg",
+    "cioc": "HUN-2",
+    "name": "Hungary-2",
+    "topLevelDomain": [
+      ".hu-2"
+    ],
+    "capital": "Budapest-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 9823000,
+    "demonym": "Hungarian-2",
+    "area": 93028.0,
+    "borders": [
+      "AUT-2",
+      "HRV-2",
+      "ROU-2",
+      "SRB-2",
+      "SVK-2",
+      "SVN-2",
+      "UKR-2"
+    ],
+    "numericCode": "348-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ISK-2",
+        "name": "Icelandic króna-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/isl.svg",
+    "cioc": "ISL-2",
+    "name": "Iceland-2",
+    "topLevelDomain": [
+      ".is-2"
+    ],
+    "capital": "Reykjavík-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 334300,
+    "demonym": "Icelander-2",
+    "area": 103000.0,
+    "borders": [],
+    "numericCode": "352-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "INR-2",
+        "name": "Indian rupee-2",
+        "symbol": "₹-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ind.svg",
+    "cioc": "IND-2",
+    "name": "India-2",
+    "topLevelDomain": [
+      ".in-2"
+    ],
+    "capital": "New Delhi-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 1295210000,
+    "demonym": "Indian-2",
+    "area": 3287590.0,
+    "borders": [
+      "AFG-2",
+      "BGD-2",
+      "BTN-2",
+      "MMR-2",
+      "CHN-2",
+      "NPL-2",
+      "PAK-2",
+      "LKA-2"
+    ],
+    "numericCode": "356-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "IDR-2",
+        "name": "Indonesian rupiah-2",
+        "symbol": "Rp-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/idn.svg",
+    "cioc": "INA-2",
+    "name": "Indonesia-2",
+    "topLevelDomain": [
+      ".id-2"
+    ],
+    "capital": "Jakarta-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 258705000,
+    "demonym": "Indonesian-2",
+    "area": 1904569.0,
+    "borders": [
+      "TLS-2",
+      "MYS-2",
+      "PNG-2"
+    ],
+    "numericCode": "360-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/civ.svg",
+    "cioc": "CIV-2",
+    "name": "Côte d'Ivoire-2",
+    "topLevelDomain": [
+      ".ci-2"
+    ],
+    "capital": "Yamoussoukro-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 22671331,
+    "demonym": "Ivorian-2",
+    "area": 322463.0,
+    "borders": [
+      "BFA-2",
+      "GHA-2",
+      "GIN-2",
+      "LBR-2",
+      "MLI-2"
+    ],
+    "numericCode": "384-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "IRR-2",
+        "name": "Iranian rial-2",
+        "symbol": "﷼-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/irn.svg",
+    "cioc": "IRI-2",
+    "name": "Iran (Islamic Republic of)-2",
+    "topLevelDomain": [
+      ".ir-2"
+    ],
+    "capital": "Tehran-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 79369900,
+    "demonym": "Iranian-2",
+    "area": 1648195.0,
+    "borders": [
+      "AFG-2",
+      "ARM-2",
+      "AZE-2",
+      "IRQ-2",
+      "PAK-2",
+      "TUR-2",
+      "TKM-2"
+    ],
+    "numericCode": "364-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "IQD-2",
+        "name": "Iraqi dinar-2",
+        "symbol": "ع.د-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/irq.svg",
+    "cioc": "IRQ-2",
+    "name": "Iraq-2",
+    "topLevelDomain": [
+      ".iq-2"
+    ],
+    "capital": "Baghdad-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 37883543,
+    "demonym": "Iraqi-2",
+    "area": 438317.0,
+    "borders": [
+      "IRN-2",
+      "JOR-2",
+      "KWT-2",
+      "SAU-2",
+      "SYR-2",
+      "TUR-2"
+    ],
+    "numericCode": "368-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/irl.svg",
+    "cioc": "IRL-2",
+    "name": "Ireland-2",
+    "topLevelDomain": [
+      ".ie-2"
+    ],
+    "capital": "Dublin-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 6378000,
+    "demonym": "Irish-2",
+    "area": 70273.0,
+    "borders": [
+      "GBR-2"
+    ],
+    "numericCode": "372-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      },
+      {
+        "code": "IMP[G]-2",
+        "name": "Manx pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/imn.svg",
+    "cioc": "-2",
+    "name": "Isle of Man-2",
+    "topLevelDomain": [
+      ".im-2"
+    ],
+    "capital": "Douglas-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 84497,
+    "demonym": "Manx-2",
+    "area": 572.0,
+    "borders": [],
+    "numericCode": "833-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ILS-2",
+        "name": "Israeli new shekel-2",
+        "symbol": "₪-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/isr.svg",
+    "cioc": "ISR-2",
+    "name": "Israel-2",
+    "topLevelDomain": [
+      ".il-2"
+    ],
+    "capital": "Jerusalem-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 8527400,
+    "demonym": "Israeli-2",
+    "area": 20770.0,
+    "borders": [
+      "EGY-2",
+      "JOR-2",
+      "LBN-2",
+      "SYR-2"
+    ],
+    "numericCode": "376-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ita.svg",
+    "cioc": "ITA-2",
+    "name": "Italy-2",
+    "topLevelDomain": [
+      ".it-2"
+    ],
+    "capital": "Rome-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 60665551,
+    "demonym": "Italian-2",
+    "area": 301336.0,
+    "borders": [
+      "AUT-2",
+      "FRA-2",
+      "SMR-2",
+      "SVN-2",
+      "CHE-2",
+      "VAT-2"
+    ],
+    "numericCode": "380-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "JMD-2",
+        "name": "Jamaican dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/jam.svg",
+    "cioc": "JAM-2",
+    "name": "Jamaica-2",
+    "topLevelDomain": [
+      ".jm-2"
+    ],
+    "capital": "Kingston-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 2723246,
+    "demonym": "Jamaican-2",
+    "area": 10991.0,
+    "borders": [],
+    "numericCode": "388-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "JPY-2",
+        "name": "Japanese yen-2",
+        "symbol": "¥-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/jpn.svg",
+    "cioc": "JPN-2",
+    "name": "Japan-2",
+    "topLevelDomain": [
+      ".jp-2"
+    ],
+    "capital": "Tokyo-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 126960000,
+    "demonym": "Japanese-2",
+    "area": 377930.0,
+    "borders": [],
+    "numericCode": "392-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      },
+      {
+        "code": "JEP[G]-2",
+        "name": "Jersey pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/jey.svg",
+    "cioc": "-2",
+    "name": "Jersey-2",
+    "topLevelDomain": [
+      ".je-2"
+    ],
+    "capital": "Saint Helier-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 100800,
+    "demonym": "Channel Islander-2",
+    "area": 116.0,
+    "borders": [],
+    "numericCode": "832-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "JOD-2",
+        "name": "Jordanian dinar-2",
+        "symbol": "د.ا-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/jor.svg",
+    "cioc": "JOR-2",
+    "name": "Jordan-2",
+    "topLevelDomain": [
+      ".jo-2"
+    ],
+    "capital": "Amman-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 9531712,
+    "demonym": "Jordanian-2",
+    "area": 89342.0,
+    "borders": [
+      "IRQ-2",
+      "ISR-2",
+      "SAU-2",
+      "SYR-2"
+    ],
+    "numericCode": "400-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KZT-2",
+        "name": "Kazakhstani tenge-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kaz.svg",
+    "cioc": "KAZ-2",
+    "name": "Kazakhstan-2",
+    "topLevelDomain": [
+      ".kz-2",
+      ".қаз-2"
+    ],
+    "capital": "Astana-2",
+    "region": "Asia-2",
+    "subregion": "Central Asia-2",
+    "population": 17753200,
+    "demonym": "Kazakhstani-2",
+    "area": 2724900.0,
+    "borders": [
+      "CHN-2",
+      "KGZ-2",
+      "RUS-2",
+      "TKM-2",
+      "UZB-2"
+    ],
+    "numericCode": "398-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KES-2",
+        "name": "Kenyan shilling-2",
+        "symbol": "Sh-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ken.svg",
+    "cioc": "KEN-2",
+    "name": "Kenya-2",
+    "topLevelDomain": [
+      ".ke-2"
+    ],
+    "capital": "Nairobi-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 47251000,
+    "demonym": "Kenyan-2",
+    "area": 580367.0,
+    "borders": [
+      "ETH-2",
+      "SOM-2",
+      "SSD-2",
+      "TZA-2",
+      "UGA-2"
+    ],
+    "numericCode": "404-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "(none)-2",
+        "name": "Kiribati dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kir.svg",
+    "cioc": "KIR-2",
+    "name": "Kiribati-2",
+    "topLevelDomain": [
+      ".ki-2"
+    ],
+    "capital": "South Tarawa-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 113400,
+    "demonym": "I-Kiribati-2",
+    "area": 811.0,
+    "borders": [],
+    "numericCode": "296-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KWD-2",
+        "name": "Kuwaiti dinar-2",
+        "symbol": "د.ك-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kwt.svg",
+    "cioc": "KUW-2",
+    "name": "Kuwait-2",
+    "topLevelDomain": [
+      ".kw-2"
+    ],
+    "capital": "Kuwait City-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 4183658,
+    "demonym": "Kuwaiti-2",
+    "area": 17818.0,
+    "borders": [
+      "IRN-2",
+      "SAU-2"
+    ],
+    "numericCode": "414-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KGS-2",
+        "name": "Kyrgyzstani som-2",
+        "symbol": "с-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kgz.svg",
+    "cioc": "KGZ-2",
+    "name": "Kyrgyzstan-2",
+    "topLevelDomain": [
+      ".kg-2"
+    ],
+    "capital": "Bishkek-2",
+    "region": "Asia-2",
+    "subregion": "Central Asia-2",
+    "population": 6047800,
+    "demonym": "Kirghiz-2",
+    "area": 199951.0,
+    "borders": [
+      "CHN-2",
+      "KAZ-2",
+      "TJK-2",
+      "UZB-2"
+    ],
+    "numericCode": "417-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LAK-2",
+        "name": "Lao kip-2",
+        "symbol": "₭-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lao.svg",
+    "cioc": "LAO-2",
+    "name": "Lao People's Democratic Republic-2",
+    "topLevelDomain": [
+      ".la-2"
+    ],
+    "capital": "Vientiane-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 6492400,
+    "demonym": "Laotian-2",
+    "area": 236800.0,
+    "borders": [
+      "MMR-2",
+      "KHM-2",
+      "CHN-2",
+      "THA-2",
+      "VNM-2"
+    ],
+    "numericCode": "418-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lva.svg",
+    "cioc": "LAT-2",
+    "name": "Latvia-2",
+    "topLevelDomain": [
+      ".lv-2"
+    ],
+    "capital": "Riga-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 1961600,
+    "demonym": "Latvian-2",
+    "area": 64559.0,
+    "borders": [
+      "BLR-2",
+      "EST-2",
+      "LTU-2",
+      "RUS-2"
+    ],
+    "numericCode": "428-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LBP-2",
+        "name": "Lebanese pound-2",
+        "symbol": "ل.ل-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lbn.svg",
+    "cioc": "LIB-2",
+    "name": "Lebanon-2",
+    "topLevelDomain": [
+      ".lb-2"
+    ],
+    "capital": "Beirut-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 5988000,
+    "demonym": "Lebanese-2",
+    "area": 10452.0,
+    "borders": [
+      "ISR-2",
+      "SYR-2"
+    ],
+    "numericCode": "422-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LSL-2",
+        "name": "Lesotho loti-2",
+        "symbol": "L-2"
+      },
+      {
+        "code": "ZAR-2",
+        "name": "South African rand-2",
+        "symbol": "R-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lso.svg",
+    "cioc": "LES-2",
+    "name": "Lesotho-2",
+    "topLevelDomain": [
+      ".ls-2"
+    ],
+    "capital": "Maseru-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 1894194,
+    "demonym": "Mosotho-2",
+    "area": 30355.0,
+    "borders": [
+      "ZAF-2"
+    ],
+    "numericCode": "426-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LRD-2",
+        "name": "Liberian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lbr.svg",
+    "cioc": "LBR-2",
+    "name": "Liberia-2",
+    "topLevelDomain": [
+      ".lr-2"
+    ],
+    "capital": "Monrovia-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 4615000,
+    "demonym": "Liberian-2",
+    "area": 111369.0,
+    "borders": [
+      "GIN-2",
+      "CIV-2",
+      "SLE-2"
+    ],
+    "numericCode": "430-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LYD-2",
+        "name": "Libyan dinar-2",
+        "symbol": "ل.د-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lby.svg",
+    "cioc": "LBA-2",
+    "name": "Libya-2",
+    "topLevelDomain": [
+      ".ly-2"
+    ],
+    "capital": "Tripoli-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 6385000,
+    "demonym": "Libyan-2",
+    "area": 1759540.0,
+    "borders": [
+      "DZA-2",
+      "TCD-2",
+      "EGY-2",
+      "NER-2",
+      "SDN-2",
+      "TUN-2"
+    ],
+    "numericCode": "434-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CHF-2",
+        "name": "Swiss franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lie.svg",
+    "cioc": "LIE-2",
+    "name": "Liechtenstein-2",
+    "topLevelDomain": [
+      ".li-2"
+    ],
+    "capital": "Vaduz-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 37623,
+    "demonym": "Liechtensteiner-2",
+    "area": 160.0,
+    "borders": [
+      "AUT-2",
+      "CHE-2"
+    ],
+    "numericCode": "438-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ltu.svg",
+    "cioc": "LTU-2",
+    "name": "Lithuania-2",
+    "topLevelDomain": [
+      ".lt-2"
+    ],
+    "capital": "Vilnius-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 2872294,
+    "demonym": "Lithuanian-2",
+    "area": 65300.0,
+    "borders": [
+      "BLR-2",
+      "LVA-2",
+      "POL-2",
+      "RUS-2"
+    ],
+    "numericCode": "440-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lux.svg",
+    "cioc": "LUX-2",
+    "name": "Luxembourg-2",
+    "topLevelDomain": [
+      ".lu-2"
+    ],
+    "capital": "Luxembourg-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 576200,
+    "demonym": "Luxembourger-2",
+    "area": 2586.0,
+    "borders": [
+      "BEL-2",
+      "FRA-2",
+      "DEU-2"
+    ],
+    "numericCode": "442-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MOP-2",
+        "name": "Macanese pataca-2",
+        "symbol": "P-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mac.svg",
+    "cioc": "-2",
+    "name": "Macao-2",
+    "topLevelDomain": [
+      ".mo-2"
+    ],
+    "capital": "-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 649100,
+    "demonym": "Chinese-2",
+    "area": 30.0,
+    "borders": [
+      "CHN-2"
+    ],
+    "numericCode": "446-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MKD-2",
+        "name": "Macedonian denar-2",
+        "symbol": "ден-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mkd.svg",
+    "cioc": "MKD-2",
+    "name": "Macedonia (the former Yugoslav Republic of)-2",
+    "topLevelDomain": [
+      ".mk-2"
+    ],
+    "capital": "Skopje-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 2058539,
+    "demonym": "Macedonian-2",
+    "area": 25713.0,
+    "borders": [
+      "ALB-2",
+      "BGR-2",
+      "GRC-2",
+      "KOS-2",
+      "SRB-2"
+    ],
+    "numericCode": "807-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MGA-2",
+        "name": "Malagasy ariary-2",
+        "symbol": "Ar-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mdg.svg",
+    "cioc": "MAD-2",
+    "name": "Madagascar-2",
+    "topLevelDomain": [
+      ".mg-2"
+    ],
+    "capital": "Antananarivo-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 22434363,
+    "demonym": "Malagasy-2",
+    "area": 587041.0,
+    "borders": [],
+    "numericCode": "450-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MWK-2",
+        "name": "Malawian kwacha-2",
+        "symbol": "MK-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mwi.svg",
+    "cioc": "MAW-2",
+    "name": "Malawi-2",
+    "topLevelDomain": [
+      ".mw-2"
+    ],
+    "capital": "Lilongwe-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 16832910,
+    "demonym": "Malawian-2",
+    "area": 118484.0,
+    "borders": [
+      "MOZ-2",
+      "TZA-2",
+      "ZMB-2"
+    ],
+    "numericCode": "454-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MYR-2",
+        "name": "Malaysian ringgit-2",
+        "symbol": "RM-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mys.svg",
+    "cioc": "MAS-2",
+    "name": "Malaysia-2",
+    "topLevelDomain": [
+      ".my-2"
+    ],
+    "capital": "Kuala Lumpur-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 31405416,
+    "demonym": "Malaysian-2",
+    "area": 330803.0,
+    "borders": [
+      "BRN-2",
+      "IDN-2",
+      "THA-2"
+    ],
+    "numericCode": "458-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MVR-2",
+        "name": "Maldivian rufiyaa-2",
+        "symbol": ".ރ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mdv.svg",
+    "cioc": "MDV-2",
+    "name": "Maldives-2",
+    "topLevelDomain": [
+      ".mv-2"
+    ],
+    "capital": "Malé-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 344023,
+    "demonym": "Maldivan-2",
+    "area": 300.0,
+    "borders": [],
+    "numericCode": "462-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mli.svg",
+    "cioc": "MLI-2",
+    "name": "Mali-2",
+    "topLevelDomain": [
+      ".ml-2"
+    ],
+    "capital": "Bamako-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 18135000,
+    "demonym": "Malian-2",
+    "area": 1240192.0,
+    "borders": [
+      "DZA-2",
+      "BFA-2",
+      "GIN-2",
+      "CIV-2",
+      "MRT-2",
+      "NER-2",
+      "SEN-2"
+    ],
+    "numericCode": "466-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mlt.svg",
+    "cioc": "MLT-2",
+    "name": "Malta-2",
+    "topLevelDomain": [
+      ".mt-2"
+    ],
+    "capital": "Valletta-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 425384,
+    "demonym": "Maltese-2",
+    "area": 316.0,
+    "borders": [],
+    "numericCode": "470-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mhl.svg",
+    "cioc": "MHL-2",
+    "name": "Marshall Islands-2",
+    "topLevelDomain": [
+      ".mh-2"
+    ],
+    "capital": "Majuro-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 54880,
+    "demonym": "Marshallese-2",
+    "area": 181.0,
+    "borders": [],
+    "numericCode": "584-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mtq.svg",
+    "cioc": "-2",
+    "name": "Martinique-2",
+    "topLevelDomain": [
+      ".mq-2"
+    ],
+    "capital": "Fort-de-France-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 378243,
+    "demonym": "French-2",
+    "borders": [],
+    "numericCode": "474-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MRO-2",
+        "name": "Mauritanian ouguiya-2",
+        "symbol": "UM-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mrt.svg",
+    "cioc": "MTN-2",
+    "name": "Mauritania-2",
+    "topLevelDomain": [
+      ".mr-2"
+    ],
+    "capital": "Nouakchott-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 3718678,
+    "demonym": "Mauritanian-2",
+    "area": 1030700.0,
+    "borders": [
+      "DZA-2",
+      "MLI-2",
+      "SEN-2",
+      "ESH-2"
+    ],
+    "numericCode": "478-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MUR-2",
+        "name": "Mauritian rupee-2",
+        "symbol": "₨-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mus.svg",
+    "cioc": "MRI-2",
+    "name": "Mauritius-2",
+    "topLevelDomain": [
+      ".mu-2"
+    ],
+    "capital": "Port Louis-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 1262879,
+    "demonym": "Mauritian-2",
+    "area": 2040.0,
+    "borders": [],
+    "numericCode": "480-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/myt.svg",
+    "cioc": "-2",
+    "name": "Mayotte-2",
+    "topLevelDomain": [
+      ".yt-2"
+    ],
+    "capital": "Mamoudzou-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 226915,
+    "demonym": "French-2",
+    "borders": [],
+    "numericCode": "175-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MXN-2",
+        "name": "Mexican peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mex.svg",
+    "cioc": "MEX-2",
+    "name": "Mexico-2",
+    "topLevelDomain": [
+      ".mx-2"
+    ],
+    "capital": "Mexico City-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 122273473,
+    "demonym": "Mexican-2",
+    "area": 1964375.0,
+    "borders": [
+      "BLZ-2",
+      "GTM-2",
+      "USA-2"
+    ],
+    "numericCode": "484-2"
+  },
+  {
+    "currencies": [
+      {
+        "name": "[D]-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/fsm.svg",
+    "cioc": "FSM-2",
+    "name": "Micronesia (Federated States of)-2",
+    "topLevelDomain": [
+      ".fm-2"
+    ],
+    "capital": "Palikir-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 102800,
+    "demonym": "Micronesian-2",
+    "area": 702.0,
+    "borders": [],
+    "numericCode": "583-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MDL-2",
+        "name": "Moldovan leu-2",
+        "symbol": "L-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mda.svg",
+    "cioc": "MDA-2",
+    "name": "Moldova (Republic of)-2",
+    "topLevelDomain": [
+      ".md-2"
+    ],
+    "capital": "Chișinău-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 3553100,
+    "demonym": "Moldovan-2",
+    "area": 33846.0,
+    "borders": [
+      "ROU-2",
+      "UKR-2"
+    ],
+    "numericCode": "498-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mco.svg",
+    "cioc": "MON-2",
+    "name": "Monaco-2",
+    "topLevelDomain": [
+      ".mc-2"
+    ],
+    "capital": "Monaco-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 38400,
+    "demonym": "Monegasque-2",
+    "area": 2.02,
+    "borders": [
+      "FRA-2"
+    ],
+    "numericCode": "492-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MNT-2",
+        "name": "Mongolian tögrög-2",
+        "symbol": "₮-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mng.svg",
+    "cioc": "MGL-2",
+    "name": "Mongolia-2",
+    "topLevelDomain": [
+      ".mn-2"
+    ],
+    "capital": "Ulan Bator-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 3093100,
+    "demonym": "Mongolian-2",
+    "area": 1564110.0,
+    "borders": [
+      "CHN-2",
+      "RUS-2"
+    ],
+    "numericCode": "496-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mne.svg",
+    "cioc": "MNE-2",
+    "name": "Montenegro-2",
+    "topLevelDomain": [
+      ".me-2"
+    ],
+    "capital": "Podgorica-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 621810,
+    "demonym": "Montenegrin-2",
+    "area": 13812.0,
+    "borders": [
+      "ALB-2",
+      "BIH-2",
+      "HRV-2",
+      "KOS-2",
+      "SRB-2"
+    ],
+    "numericCode": "499-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/msr.svg",
+    "cioc": "-2",
+    "name": "Montserrat-2",
+    "topLevelDomain": [
+      ".ms-2"
+    ],
+    "capital": "Plymouth-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 4922,
+    "demonym": "Montserratian-2",
+    "area": 102.0,
+    "borders": [],
+    "numericCode": "500-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MAD-2",
+        "name": "Moroccan dirham-2",
+        "symbol": "د.م.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mar.svg",
+    "cioc": "MAR-2",
+    "name": "Morocco-2",
+    "topLevelDomain": [
+      ".ma-2"
+    ],
+    "capital": "Rabat-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 33337529,
+    "demonym": "Moroccan-2",
+    "area": 446550.0,
+    "borders": [
+      "DZA-2",
+      "ESH-2",
+      "ESP-2"
+    ],
+    "numericCode": "504-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MZN-2",
+        "name": "Mozambican metical-2",
+        "symbol": "MT-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/moz.svg",
+    "cioc": "MOZ-2",
+    "name": "Mozambique-2",
+    "topLevelDomain": [
+      ".mz-2"
+    ],
+    "capital": "Maputo-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 26423700,
+    "demonym": "Mozambican-2",
+    "area": 801590.0,
+    "borders": [
+      "MWI-2",
+      "ZAF-2",
+      "SWZ-2",
+      "TZA-2",
+      "ZMB-2",
+      "ZWE-2"
+    ],
+    "numericCode": "508-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MMK-2",
+        "name": "Burmese kyat-2",
+        "symbol": "Ks-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mmr.svg",
+    "cioc": "MYA-2",
+    "name": "Myanmar-2",
+    "topLevelDomain": [
+      ".mm-2"
+    ],
+    "capital": "Naypyidaw-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 51419420,
+    "demonym": "Burmese-2",
+    "area": 676578.0,
+    "borders": [
+      "BGD-2",
+      "CHN-2",
+      "IND-2",
+      "LAO-2",
+      "THA-2"
+    ],
+    "numericCode": "104-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NAD-2",
+        "name": "Namibian dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "ZAR-2",
+        "name": "South African rand-2",
+        "symbol": "R-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nam.svg",
+    "cioc": "NAM-2",
+    "name": "Namibia-2",
+    "topLevelDomain": [
+      ".na-2"
+    ],
+    "capital": "Windhoek-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 2324388,
+    "demonym": "Namibian-2",
+    "area": 825615.0,
+    "borders": [
+      "AGO-2",
+      "BWA-2",
+      "ZAF-2",
+      "ZMB-2"
+    ],
+    "numericCode": "516-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "(none)-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nru.svg",
+    "cioc": "NRU-2",
+    "name": "Nauru-2",
+    "topLevelDomain": [
+      ".nr-2"
+    ],
+    "capital": "Yaren-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 10084,
+    "demonym": "Nauruan-2",
+    "area": 21.0,
+    "borders": [],
+    "numericCode": "520-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NPR-2",
+        "name": "Nepalese rupee-2",
+        "symbol": "₨-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/npl.svg",
+    "cioc": "NEP-2",
+    "name": "Nepal-2",
+    "topLevelDomain": [
+      ".np-2"
+    ],
+    "capital": "Kathmandu-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 28431500,
+    "demonym": "Nepalese-2",
+    "area": 147181.0,
+    "borders": [
+      "CHN-2",
+      "IND-2"
+    ],
+    "numericCode": "524-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nld.svg",
+    "cioc": "NED-2",
+    "name": "Netherlands-2",
+    "topLevelDomain": [
+      ".nl-2"
+    ],
+    "capital": "Amsterdam-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 17019800,
+    "demonym": "Dutch-2",
+    "area": 41850.0,
+    "borders": [
+      "BEL-2",
+      "DEU-2"
+    ],
+    "numericCode": "528-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XPF-2",
+        "name": "CFP franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ncl.svg",
+    "cioc": "-2",
+    "name": "New Caledonia-2",
+    "topLevelDomain": [
+      ".nc-2"
+    ],
+    "capital": "Nouméa-2",
+    "region": "Oceania-2",
+    "subregion": "Melanesia-2",
+    "population": 268767,
+    "demonym": "New Caledonian-2",
+    "area": 18575.0,
+    "borders": [],
+    "numericCode": "540-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NZD-2",
+        "name": "New Zealand dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nzl.svg",
+    "cioc": "NZL-2",
+    "name": "New Zealand-2",
+    "topLevelDomain": [
+      ".nz-2"
+    ],
+    "capital": "Wellington-2",
+    "region": "Oceania-2",
+    "subregion": "Australia and New Zealand-2",
+    "population": 4697854,
+    "demonym": "New Zealander-2",
+    "area": 270467.0,
+    "borders": [],
+    "numericCode": "554-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NIO-2",
+        "name": "Nicaraguan córdoba-2",
+        "symbol": "C$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nic.svg",
+    "cioc": "NCA-2",
+    "name": "Nicaragua-2",
+    "topLevelDomain": [
+      ".ni-2"
+    ],
+    "capital": "Managua-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 6262703,
+    "demonym": "Nicaraguan-2",
+    "area": 130373.0,
+    "borders": [
+      "CRI-2",
+      "HND-2"
+    ],
+    "numericCode": "558-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ner.svg",
+    "cioc": "NIG-2",
+    "name": "Niger-2",
+    "topLevelDomain": [
+      ".ne-2"
+    ],
+    "capital": "Niamey-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 20715000,
+    "demonym": "Nigerien-2",
+    "area": 1267000.0,
+    "borders": [
+      "DZA-2",
+      "BEN-2",
+      "BFA-2",
+      "TCD-2",
+      "LBY-2",
+      "MLI-2",
+      "NGA-2"
+    ],
+    "numericCode": "562-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NGN-2",
+        "name": "Nigerian naira-2",
+        "symbol": "₦-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nga.svg",
+    "cioc": "NGR-2",
+    "name": "Nigeria-2",
+    "topLevelDomain": [
+      ".ng-2"
+    ],
+    "capital": "Abuja-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 186988000,
+    "demonym": "Nigerian-2",
+    "area": 923768.0,
+    "borders": [
+      "BEN-2",
+      "CMR-2",
+      "TCD-2",
+      "NER-2"
+    ],
+    "numericCode": "566-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NZD-2",
+        "name": "New Zealand dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "(none)-2",
+        "name": "Niue dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/niu.svg",
+    "cioc": "-2",
+    "name": "Niue-2",
+    "topLevelDomain": [
+      ".nu-2"
+    ],
+    "capital": "Alofi-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 1470,
+    "demonym": "Niuean-2",
+    "area": 260.0,
+    "borders": [],
+    "numericCode": "570-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nfk.svg",
+    "cioc": "-2",
+    "name": "Norfolk Island-2",
+    "topLevelDomain": [
+      ".nf-2"
+    ],
+    "capital": "Kingston-2",
+    "region": "Oceania-2",
+    "subregion": "Australia and New Zealand-2",
+    "population": 2302,
+    "demonym": "Norfolk Islander-2",
+    "area": 36.0,
+    "borders": [],
+    "numericCode": "574-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KPW-2",
+        "name": "North Korean won-2",
+        "symbol": "₩-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/prk.svg",
+    "cioc": "PRK-2",
+    "name": "Korea (Democratic People's Republic of)-2",
+    "topLevelDomain": [
+      ".kp-2"
+    ],
+    "capital": "Pyongyang-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 25281000,
+    "demonym": "North Korean-2",
+    "area": 120538.0,
+    "borders": [
+      "CHN-2",
+      "KOR-2",
+      "RUS-2"
+    ],
+    "numericCode": "408-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/mnp.svg",
+    "cioc": "-2",
+    "name": "Northern Mariana Islands-2",
+    "topLevelDomain": [
+      ".mp-2"
+    ],
+    "capital": "Saipan-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 56940,
+    "demonym": "American-2",
+    "area": 464.0,
+    "borders": [],
+    "numericCode": "580-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NOK-2",
+        "name": "Norwegian krone-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/nor.svg",
+    "cioc": "NOR-2",
+    "name": "Norway-2",
+    "topLevelDomain": [
+      ".no-2"
+    ],
+    "capital": "Oslo-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 5223256,
+    "demonym": "Norwegian-2",
+    "area": 323802.0,
+    "borders": [
+      "FIN-2",
+      "SWE-2",
+      "RUS-2"
+    ],
+    "numericCode": "578-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "OMR-2",
+        "name": "Omani rial-2",
+        "symbol": "ر.ع.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/omn.svg",
+    "cioc": "OMA-2",
+    "name": "Oman-2",
+    "topLevelDomain": [
+      ".om-2"
+    ],
+    "capital": "Muscat-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 4420133,
+    "demonym": "Omani-2",
+    "area": 309500.0,
+    "borders": [
+      "SAU-2",
+      "ARE-2",
+      "YEM-2"
+    ],
+    "numericCode": "512-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PKR-2",
+        "name": "Pakistani rupee-2",
+        "symbol": "₨-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pak.svg",
+    "cioc": "PAK-2",
+    "name": "Pakistan-2",
+    "topLevelDomain": [
+      ".pk-2"
+    ],
+    "capital": "Islamabad-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 194125062,
+    "demonym": "Pakistani-2",
+    "area": 881912.0,
+    "borders": [
+      "AFG-2",
+      "CHN-2",
+      "IND-2",
+      "IRN-2"
+    ],
+    "numericCode": "586-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "(none)-2",
+        "name": "[E]-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/plw.svg",
+    "cioc": "PLW-2",
+    "name": "Palau-2",
+    "topLevelDomain": [
+      ".pw-2"
+    ],
+    "capital": "Ngerulmud-2",
+    "region": "Oceania-2",
+    "subregion": "Micronesia-2",
+    "population": 17950,
+    "demonym": "Palauan-2",
+    "area": 459.0,
+    "borders": [],
+    "numericCode": "585-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ILS-2",
+        "name": "Israeli new sheqel-2",
+        "symbol": "₪-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pse.svg",
+    "cioc": "PLE-2",
+    "name": "Palestine, State of-2",
+    "topLevelDomain": [
+      ".ps-2"
+    ],
+    "capital": "Ramallah-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 4682467,
+    "demonym": "Palestinian-2",
+    "borders": [
+      "ISR-2",
+      "EGY-2",
+      "JOR-2"
+    ],
+    "numericCode": "275-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PAB-2",
+        "name": "Panamanian balboa-2",
+        "symbol": "B/.-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pan.svg",
+    "cioc": "PAN-2",
+    "name": "Panama-2",
+    "topLevelDomain": [
+      ".pa-2"
+    ],
+    "capital": "Panama City-2",
+    "region": "Americas-2",
+    "subregion": "Central America-2",
+    "population": 3814672,
+    "demonym": "Panamanian-2",
+    "area": 75417.0,
+    "borders": [
+      "COL-2",
+      "CRI-2"
+    ],
+    "numericCode": "591-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PGK-2",
+        "name": "Papua New Guinean kina-2",
+        "symbol": "K-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/png.svg",
+    "cioc": "PNG-2",
+    "name": "Papua New Guinea-2",
+    "topLevelDomain": [
+      ".pg-2"
+    ],
+    "capital": "Port Moresby-2",
+    "region": "Oceania-2",
+    "subregion": "Melanesia-2",
+    "population": 8083700,
+    "demonym": "Papua New Guinean-2",
+    "area": 462840.0,
+    "borders": [
+      "IDN-2"
+    ],
+    "numericCode": "598-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PYG-2",
+        "name": "Paraguayan guaraní-2",
+        "symbol": "₲-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pry.svg",
+    "cioc": "PAR-2",
+    "name": "Paraguay-2",
+    "topLevelDomain": [
+      ".py-2"
+    ],
+    "capital": "Asunción-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 6854536,
+    "demonym": "Paraguayan-2",
+    "area": 406752.0,
+    "borders": [
+      "ARG-2",
+      "BOL-2",
+      "BRA-2"
+    ],
+    "numericCode": "600-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PEN-2",
+        "name": "Peruvian sol-2",
+        "symbol": "S/.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/per.svg",
+    "cioc": "PER-2",
+    "name": "Peru-2",
+    "topLevelDomain": [
+      ".pe-2"
+    ],
+    "capital": "Lima-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 31488700,
+    "demonym": "Peruvian-2",
+    "area": 1285216.0,
+    "borders": [
+      "BOL-2",
+      "BRA-2",
+      "CHL-2",
+      "COL-2",
+      "ECU-2"
+    ],
+    "numericCode": "604-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PHP-2",
+        "name": "Philippine peso-2",
+        "symbol": "₱-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/phl.svg",
+    "cioc": "PHI-2",
+    "name": "Philippines-2",
+    "topLevelDomain": [
+      ".ph-2"
+    ],
+    "capital": "Manila-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 103279800,
+    "demonym": "Filipino-2",
+    "area": 342353.0,
+    "borders": [],
+    "numericCode": "608-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NZD-2",
+        "name": "New Zealand dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "name": "Pitcairn Islands dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pcn.svg",
+    "cioc": "-2",
+    "name": "Pitcairn-2",
+    "topLevelDomain": [
+      ".pn-2"
+    ],
+    "capital": "Adamstown-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 56,
+    "demonym": "Pitcairn Islander-2",
+    "area": 47.0,
+    "borders": [],
+    "numericCode": "612-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "PLN-2",
+        "name": "Polish złoty-2",
+        "symbol": "zł-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pol.svg",
+    "cioc": "POL-2",
+    "name": "Poland-2",
+    "topLevelDomain": [
+      ".pl-2"
+    ],
+    "capital": "Warsaw-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 38437239,
+    "demonym": "Polish-2",
+    "area": 312679.0,
+    "borders": [
+      "BLR-2",
+      "CZE-2",
+      "DEU-2",
+      "LTU-2",
+      "RUS-2",
+      "SVK-2",
+      "UKR-2"
+    ],
+    "numericCode": "616-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/prt.svg",
+    "cioc": "POR-2",
+    "name": "Portugal-2",
+    "topLevelDomain": [
+      ".pt-2"
+    ],
+    "capital": "Lisbon-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 10374822,
+    "demonym": "Portuguese-2",
+    "area": 92090.0,
+    "borders": [
+      "ESP-2"
+    ],
+    "numericCode": "620-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/pri.svg",
+    "cioc": "PUR-2",
+    "name": "Puerto Rico-2",
+    "topLevelDomain": [
+      ".pr-2"
+    ],
+    "capital": "San Juan-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 3474182,
+    "demonym": "Puerto Rican-2",
+    "area": 8870.0,
+    "borders": [],
+    "numericCode": "630-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "QAR-2",
+        "name": "Qatari riyal-2",
+        "symbol": "ر.ق-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/qat.svg",
+    "cioc": "QAT-2",
+    "name": "Qatar-2",
+    "topLevelDomain": [
+      ".qa-2"
+    ],
+    "capital": "Doha-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 2587564,
+    "demonym": "Qatari-2",
+    "area": 11586.0,
+    "borders": [
+      "SAU-2"
+    ],
+    "numericCode": "634-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kos.svg",
+    "name": "Republic of Kosovo-2",
+    "topLevelDomain": [
+      "-2"
+    ],
+    "capital": "Pristina-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 1733842,
+    "demonym": "Kosovar-2",
+    "area": 10908.0,
+    "borders": [
+      "ALB-2",
+      "MKD-2",
+      "MNE-2",
+      "SRB-2"
+    ]
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/reu.svg",
+    "cioc": "-2",
+    "name": "Réunion-2",
+    "topLevelDomain": [
+      ".re-2"
+    ],
+    "capital": "Saint-Denis-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 840974,
+    "demonym": "French-2",
+    "borders": [],
+    "numericCode": "638-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "RON-2",
+        "name": "Romanian leu-2",
+        "symbol": "lei-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/rou.svg",
+    "cioc": "ROU-2",
+    "name": "Romania-2",
+    "topLevelDomain": [
+      ".ro-2"
+    ],
+    "capital": "Bucharest-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 19861408,
+    "demonym": "Romanian-2",
+    "area": 238391.0,
+    "borders": [
+      "BGR-2",
+      "HUN-2",
+      "MDA-2",
+      "SRB-2",
+      "UKR-2"
+    ],
+    "numericCode": "642-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "RUB-2",
+        "name": "Russian ruble-2",
+        "symbol": "₽-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/rus.svg",
+    "cioc": "RUS-2",
+    "name": "Russian Federation-2",
+    "topLevelDomain": [
+      ".ru-2"
+    ],
+    "capital": "Moscow-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 146599183,
+    "demonym": "Russian-2",
+    "area": 1.7124442E7,
+    "borders": [
+      "AZE-2",
+      "BLR-2",
+      "CHN-2",
+      "EST-2",
+      "FIN-2",
+      "GEO-2",
+      "KAZ-2",
+      "PRK-2",
+      "LVA-2",
+      "LTU-2",
+      "MNG-2",
+      "NOR-2",
+      "POL-2",
+      "UKR-2"
+    ],
+    "numericCode": "643-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "RWF-2",
+        "name": "Rwandan franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/rwa.svg",
+    "cioc": "RWA-2",
+    "name": "Rwanda-2",
+    "topLevelDomain": [
+      ".rw-2"
+    ],
+    "capital": "Kigali-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 11553188,
+    "demonym": "Rwandan-2",
+    "area": 26338.0,
+    "borders": [
+      "BDI-2",
+      "COD-2",
+      "TZA-2",
+      "UGA-2"
+    ],
+    "numericCode": "646-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/blm.svg",
+    "cioc": "-2",
+    "name": "Saint Barthélemy-2",
+    "topLevelDomain": [
+      ".bl-2"
+    ],
+    "capital": "Gustavia-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 9417,
+    "demonym": "Saint Barthélemy Islander-2",
+    "area": 21.0,
+    "borders": [],
+    "numericCode": "652-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SHP-2",
+        "name": "Saint Helena pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/shn.svg",
+    "name": "Saint Helena, Ascension and Tristan da Cunha-2",
+    "topLevelDomain": [
+      ".sh-2"
+    ],
+    "capital": "Jamestown-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 4255,
+    "demonym": "Saint Helenian-2",
+    "borders": [],
+    "numericCode": "654-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kna.svg",
+    "cioc": "SKN-2",
+    "name": "Saint Kitts and Nevis-2",
+    "topLevelDomain": [
+      ".kn-2"
+    ],
+    "capital": "Basseterre-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 46204,
+    "demonym": "Kittian and Nevisian-2",
+    "area": 261.0,
+    "borders": [],
+    "numericCode": "659-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lca.svg",
+    "cioc": "LCA-2",
+    "name": "Saint Lucia-2",
+    "topLevelDomain": [
+      ".lc-2"
+    ],
+    "capital": "Castries-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 186000,
+    "demonym": "Saint Lucian-2",
+    "area": 616.0,
+    "borders": [],
+    "numericCode": "662-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/maf.svg",
+    "cioc": "-2",
+    "name": "Saint Martin (French part)-2",
+    "topLevelDomain": [
+      ".mf-2",
+      ".fr-2",
+      ".gp-2"
+    ],
+    "capital": "Marigot-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 36979,
+    "demonym": "Saint Martin Islander-2",
+    "area": 53.0,
+    "borders": [
+      "SXM-2",
+      "NLD-2"
+    ],
+    "numericCode": "663-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/spm.svg",
+    "cioc": "-2",
+    "name": "Saint Pierre and Miquelon-2",
+    "topLevelDomain": [
+      ".pm-2"
+    ],
+    "capital": "Saint-Pierre-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 6069,
+    "demonym": "French-2",
+    "area": 242.0,
+    "borders": [],
+    "numericCode": "666-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD-2",
+        "name": "East Caribbean dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vct.svg",
+    "cioc": "VIN-2",
+    "name": "Saint Vincent and the Grenadines-2",
+    "topLevelDomain": [
+      ".vc-2"
+    ],
+    "capital": "Kingstown-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 109991,
+    "demonym": "Saint Vincentian-2",
+    "area": 389.0,
+    "borders": [],
+    "numericCode": "670-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "WST-2",
+        "name": "Samoan tālā-2",
+        "symbol": "T-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/wsm.svg",
+    "cioc": "SAM-2",
+    "name": "Samoa-2",
+    "topLevelDomain": [
+      ".ws-2"
+    ],
+    "capital": "Apia-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 194899,
+    "demonym": "Samoan-2",
+    "area": 2842.0,
+    "borders": [],
+    "numericCode": "882-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/smr.svg",
+    "cioc": "SMR-2",
+    "name": "San Marino-2",
+    "topLevelDomain": [
+      ".sm-2"
+    ],
+    "capital": "City of San Marino-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 33005,
+    "demonym": "Sammarinese-2",
+    "area": 61.0,
+    "borders": [
+      "ITA-2"
+    ],
+    "numericCode": "674-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "STD-2",
+        "name": "São Tomé and Príncipe dobra-2",
+        "symbol": "Db-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/stp.svg",
+    "cioc": "STP-2",
+    "name": "Sao Tome and Principe-2",
+    "topLevelDomain": [
+      ".st-2"
+    ],
+    "capital": "São Tomé-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 187356,
+    "demonym": "Sao Tomean-2",
+    "area": 964.0,
+    "borders": [],
+    "numericCode": "678-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SAR-2",
+        "name": "Saudi riyal-2",
+        "symbol": "ر.س-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sau.svg",
+    "cioc": "KSA-2",
+    "name": "Saudi Arabia-2",
+    "topLevelDomain": [
+      ".sa-2"
+    ],
+    "capital": "Riyadh-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 32248200,
+    "demonym": "Saudi Arabian-2",
+    "area": 2149690.0,
+    "borders": [
+      "IRQ-2",
+      "JOR-2",
+      "KWT-2",
+      "OMN-2",
+      "QAT-2",
+      "ARE-2",
+      "YEM-2"
+    ],
+    "numericCode": "682-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sen.svg",
+    "cioc": "SEN-2",
+    "name": "Senegal-2",
+    "topLevelDomain": [
+      ".sn-2"
+    ],
+    "capital": "Dakar-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 14799859,
+    "demonym": "Senegalese-2",
+    "area": 196722.0,
+    "borders": [
+      "GMB-2",
+      "GIN-2",
+      "GNB-2",
+      "MLI-2",
+      "MRT-2"
+    ],
+    "numericCode": "686-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "RSD-2",
+        "name": "Serbian dinar-2",
+        "symbol": "дин.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/srb.svg",
+    "cioc": "SRB-2",
+    "name": "Serbia-2",
+    "topLevelDomain": [
+      ".rs-2"
+    ],
+    "capital": "Belgrade-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 7076372,
+    "demonym": "Serbian-2",
+    "area": 88361.0,
+    "borders": [
+      "BIH-2",
+      "BGR-2",
+      "HRV-2",
+      "HUN-2",
+      "KOS-2",
+      "MKD-2",
+      "MNE-2",
+      "ROU-2"
+    ],
+    "numericCode": "688-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SCR-2",
+        "name": "Seychellois rupee-2",
+        "symbol": "₨-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/syc.svg",
+    "cioc": "SEY-2",
+    "name": "Seychelles-2",
+    "topLevelDomain": [
+      ".sc-2"
+    ],
+    "capital": "Victoria-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 91400,
+    "demonym": "Seychellois-2",
+    "area": 452.0,
+    "borders": [],
+    "numericCode": "690-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SLL-2",
+        "name": "Sierra Leonean leone-2",
+        "symbol": "Le-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sle.svg",
+    "cioc": "SLE-2",
+    "name": "Sierra Leone-2",
+    "topLevelDomain": [
+      ".sl-2"
+    ],
+    "capital": "Freetown-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 7075641,
+    "demonym": "Sierra Leonean-2",
+    "area": 71740.0,
+    "borders": [
+      "GIN-2",
+      "LBR-2"
+    ],
+    "numericCode": "694-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BND-2",
+        "name": "Brunei dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "SGD-2",
+        "name": "Singapore dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sgp.svg",
+    "cioc": "SIN-2",
+    "name": "Singapore-2",
+    "topLevelDomain": [
+      ".sg-2"
+    ],
+    "capital": "Singapore-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 5535000,
+    "demonym": "Singaporean-2",
+    "area": 710.0,
+    "borders": [],
+    "numericCode": "702-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ANG-2",
+        "name": "Netherlands Antillean guilder-2",
+        "symbol": "ƒ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sxm.svg",
+    "cioc": "-2",
+    "name": "Sint Maarten (Dutch part)-2",
+    "topLevelDomain": [
+      ".sx-2"
+    ],
+    "capital": "Philipsburg-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 38247,
+    "demonym": "Dutch-2",
+    "area": 34.0,
+    "borders": [
+      "MAF-2"
+    ],
+    "numericCode": "534-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/svk.svg",
+    "cioc": "SVK-2",
+    "name": "Slovakia-2",
+    "topLevelDomain": [
+      ".sk-2"
+    ],
+    "capital": "Bratislava-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 5426252,
+    "demonym": "Slovak-2",
+    "area": 49037.0,
+    "borders": [
+      "AUT-2",
+      "CZE-2",
+      "HUN-2",
+      "POL-2",
+      "UKR-2"
+    ],
+    "numericCode": "703-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/svn.svg",
+    "cioc": "SLO-2",
+    "name": "Slovenia-2",
+    "topLevelDomain": [
+      ".si-2"
+    ],
+    "capital": "Ljubljana-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 2064188,
+    "demonym": "Slovene-2",
+    "area": 20273.0,
+    "borders": [
+      "AUT-2",
+      "HRV-2",
+      "ITA-2",
+      "HUN-2"
+    ],
+    "numericCode": "705-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SBD-2",
+        "name": "Solomon Islands dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/slb.svg",
+    "cioc": "SOL-2",
+    "name": "Solomon Islands-2",
+    "topLevelDomain": [
+      ".sb-2"
+    ],
+    "capital": "Honiara-2",
+    "region": "Oceania-2",
+    "subregion": "Melanesia-2",
+    "population": 642000,
+    "demonym": "Solomon Islander-2",
+    "area": 28896.0,
+    "borders": [],
+    "numericCode": "090-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SOS-2",
+        "name": "Somali shilling-2",
+        "symbol": "Sh-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/som.svg",
+    "cioc": "SOM-2",
+    "name": "Somalia-2",
+    "topLevelDomain": [
+      ".so-2"
+    ],
+    "capital": "Mogadishu-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 11079000,
+    "demonym": "Somali-2",
+    "area": 637657.0,
+    "borders": [
+      "DJI-2",
+      "ETH-2",
+      "KEN-2"
+    ],
+    "numericCode": "706-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ZAR-2",
+        "name": "South African rand-2",
+        "symbol": "R-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/zaf.svg",
+    "cioc": "RSA-2",
+    "name": "South Africa-2",
+    "topLevelDomain": [
+      ".za-2"
+    ],
+    "capital": "Pretoria-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 55653654,
+    "demonym": "South African-2",
+    "area": 1221037.0,
+    "borders": [
+      "BWA-2",
+      "LSO-2",
+      "MOZ-2",
+      "NAM-2",
+      "SWZ-2",
+      "ZWE-2"
+    ],
+    "numericCode": "710-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      },
+      {
+        "code": "(none)-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sgs.svg",
+    "cioc": "-2",
+    "name": "South Georgia and the South Sandwich Islands-2",
+    "topLevelDomain": [
+      ".gs-2"
+    ],
+    "capital": "King Edward Point-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 30,
+    "demonym": "South Georgia and the South Sandwich Islander-2",
+    "borders": [],
+    "numericCode": "239-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "KRW-2",
+        "name": "South Korean won-2",
+        "symbol": "₩-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/kor.svg",
+    "cioc": "KOR-2",
+    "name": "Korea (Republic of)-2",
+    "topLevelDomain": [
+      ".kr-2"
+    ],
+    "capital": "Seoul-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 50801405,
+    "demonym": "South Korean-2",
+    "area": 100210.0,
+    "borders": [
+      "PRK-2"
+    ],
+    "numericCode": "410-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SSP-2",
+        "name": "South Sudanese pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ssd.svg",
+    "cioc": "-2",
+    "name": "South Sudan-2",
+    "topLevelDomain": [
+      ".ss-2"
+    ],
+    "capital": "Juba-2",
+    "region": "Africa-2",
+    "subregion": "Middle Africa-2",
+    "population": 12131000,
+    "demonym": "South Sudanese-2",
+    "area": 619745.0,
+    "borders": [
+      "CAF-2",
+      "COD-2",
+      "ETH-2",
+      "KEN-2",
+      "SDN-2",
+      "UGA-2"
+    ],
+    "numericCode": "728-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/esp.svg",
+    "cioc": "ESP-2",
+    "name": "Spain-2",
+    "topLevelDomain": [
+      ".es-2"
+    ],
+    "capital": "Madrid-2",
+    "region": "Europe-2",
+    "subregion": "Southern Europe-2",
+    "population": 46438422,
+    "demonym": "Spanish-2",
+    "area": 505992.0,
+    "borders": [
+      "AND-2",
+      "FRA-2",
+      "GIB-2",
+      "PRT-2",
+      "MAR-2"
+    ],
+    "numericCode": "724-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "LKR-2",
+        "name": "Sri Lankan rupee-2",
+        "symbol": "Rs-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/lka.svg",
+    "cioc": "SRI-2",
+    "name": "Sri Lanka-2",
+    "topLevelDomain": [
+      ".lk-2"
+    ],
+    "capital": "Colombo-2",
+    "region": "Asia-2",
+    "subregion": "Southern Asia-2",
+    "population": 20966000,
+    "demonym": "Sri Lankan-2",
+    "area": 65610.0,
+    "borders": [
+      "IND-2"
+    ],
+    "numericCode": "144-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SDG-2",
+        "name": "Sudanese pound-2",
+        "symbol": "ج.س.-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sdn.svg",
+    "cioc": "SUD-2",
+    "name": "Sudan-2",
+    "topLevelDomain": [
+      ".sd-2"
+    ],
+    "capital": "Khartoum-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 39598700,
+    "demonym": "Sudanese-2",
+    "area": 1886068.0,
+    "borders": [
+      "CAF-2",
+      "TCD-2",
+      "EGY-2",
+      "ERI-2",
+      "ETH-2",
+      "LBY-2",
+      "SSD-2"
+    ],
+    "numericCode": "729-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SRD-2",
+        "name": "Surinamese dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sur.svg",
+    "cioc": "SUR-2",
+    "name": "Suriname-2",
+    "topLevelDomain": [
+      ".sr-2"
+    ],
+    "capital": "Paramaribo-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 541638,
+    "demonym": "Surinamer-2",
+    "area": 163820.0,
+    "borders": [
+      "BRA-2",
+      "GUF-2",
+      "FRA-2",
+      "GUY-2"
+    ],
+    "numericCode": "740-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NOK-2",
+        "name": "Norwegian krone-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/sjm.svg",
+    "cioc": "-2",
+    "name": "Svalbard and Jan Mayen-2",
+    "topLevelDomain": [
+      ".sj-2"
+    ],
+    "capital": "Longyearbyen-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 2562,
+    "demonym": "Norwegian-2",
+    "borders": [],
+    "numericCode": "744-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SZL-2",
+        "name": "Swazi lilangeni-2",
+        "symbol": "L-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/swz.svg",
+    "cioc": "SWZ-2",
+    "name": "Swaziland-2",
+    "topLevelDomain": [
+      ".sz-2"
+    ],
+    "capital": "Lobamba-2",
+    "region": "Africa-2",
+    "subregion": "Southern Africa-2",
+    "population": 1132657,
+    "demonym": "Swazi-2",
+    "area": 17364.0,
+    "borders": [
+      "MOZ-2",
+      "ZAF-2"
+    ],
+    "numericCode": "748-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SEK-2",
+        "name": "Swedish krona-2",
+        "symbol": "kr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/swe.svg",
+    "cioc": "SWE-2",
+    "name": "Sweden-2",
+    "topLevelDomain": [
+      ".se-2"
+    ],
+    "capital": "Stockholm-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 9894888,
+    "demonym": "Swedish-2",
+    "area": 450295.0,
+    "borders": [
+      "FIN-2",
+      "NOR-2"
+    ],
+    "numericCode": "752-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "CHF-2",
+        "name": "Swiss franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/che.svg",
+    "cioc": "SUI-2",
+    "name": "Switzerland-2",
+    "topLevelDomain": [
+      ".ch-2"
+    ],
+    "capital": "Bern-2",
+    "region": "Europe-2",
+    "subregion": "Western Europe-2",
+    "population": 8341600,
+    "demonym": "Swiss-2",
+    "area": 41284.0,
+    "borders": [
+      "AUT-2",
+      "FRA-2",
+      "ITA-2",
+      "LIE-2",
+      "DEU-2"
+    ],
+    "numericCode": "756-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "SYP-2",
+        "name": "Syrian pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/syr.svg",
+    "cioc": "SYR-2",
+    "name": "Syrian Arab Republic-2",
+    "topLevelDomain": [
+      ".sy-2"
+    ],
+    "capital": "Damascus-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 18564000,
+    "demonym": "Syrian-2",
+    "area": 185180.0,
+    "borders": [
+      "IRQ-2",
+      "ISR-2",
+      "JOR-2",
+      "LBN-2",
+      "TUR-2"
+    ],
+    "numericCode": "760-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TWD-2",
+        "name": "New Taiwan dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/twn.svg",
+    "cioc": "TPE-2",
+    "name": "Taiwan-2",
+    "topLevelDomain": [
+      ".tw-2"
+    ],
+    "capital": "Taipei-2",
+    "region": "Asia-2",
+    "subregion": "Eastern Asia-2",
+    "population": 23503349,
+    "demonym": "Taiwanese-2",
+    "area": 36193.0,
+    "borders": [],
+    "numericCode": "158-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TJS-2",
+        "name": "Tajikistani somoni-2",
+        "symbol": "ЅМ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tjk.svg",
+    "cioc": "TJK-2",
+    "name": "Tajikistan-2",
+    "topLevelDomain": [
+      ".tj-2"
+    ],
+    "capital": "Dushanbe-2",
+    "region": "Asia-2",
+    "subregion": "Central Asia-2",
+    "population": 8593600,
+    "demonym": "Tadzhik-2",
+    "area": 143100.0,
+    "borders": [
+      "AFG-2",
+      "CHN-2",
+      "KGZ-2",
+      "UZB-2"
+    ],
+    "numericCode": "762-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TZS-2",
+        "name": "Tanzanian shilling-2",
+        "symbol": "Sh-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tza.svg",
+    "cioc": "TAN-2",
+    "name": "Tanzania, United Republic of-2",
+    "topLevelDomain": [
+      ".tz-2"
+    ],
+    "capital": "Dodoma-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 55155000,
+    "demonym": "Tanzanian-2",
+    "area": 945087.0,
+    "borders": [
+      "BDI-2",
+      "COD-2",
+      "KEN-2",
+      "MWI-2",
+      "MOZ-2",
+      "RWA-2",
+      "UGA-2",
+      "ZMB-2"
+    ],
+    "numericCode": "834-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "THB-2",
+        "name": "Thai baht-2",
+        "symbol": "฿-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tha.svg",
+    "cioc": "THA-2",
+    "name": "Thailand-2",
+    "topLevelDomain": [
+      ".th-2"
+    ],
+    "capital": "Bangkok-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 65327652,
+    "demonym": "Thai-2",
+    "area": 513120.0,
+    "borders": [
+      "MMR-2",
+      "KHM-2",
+      "LAO-2",
+      "MYS-2"
+    ],
+    "numericCode": "764-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      },
+      {}
+    ],
+    "flag": "https://restcountries.eu/data/tls.svg",
+    "cioc": "TLS-2",
+    "name": "Timor-Leste-2",
+    "topLevelDomain": [
+      ".tl-2"
+    ],
+    "capital": "Dili-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 1167242,
+    "demonym": "East Timorese-2",
+    "area": 14874.0,
+    "borders": [
+      "IDN-2"
+    ],
+    "numericCode": "626-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XOF-2",
+        "name": "West African CFA franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tgo.svg",
+    "cioc": "TOG-2",
+    "name": "Togo-2",
+    "topLevelDomain": [
+      ".tg-2"
+    ],
+    "capital": "Lomé-2",
+    "region": "Africa-2",
+    "subregion": "Western Africa-2",
+    "population": 7143000,
+    "demonym": "Togolese-2",
+    "area": 56785.0,
+    "borders": [
+      "BEN-2",
+      "BFA-2",
+      "GHA-2"
+    ],
+    "numericCode": "768-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "NZD-2",
+        "name": "New Zealand dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tkl.svg",
+    "cioc": "-2",
+    "name": "Tokelau-2",
+    "topLevelDomain": [
+      ".tk-2"
+    ],
+    "capital": "Fakaofo-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 1411,
+    "demonym": "Tokelauan-2",
+    "area": 12.0,
+    "borders": [],
+    "numericCode": "772-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TOP-2",
+        "name": "Tongan paʻanga-2",
+        "symbol": "T$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ton.svg",
+    "cioc": "TGA-2",
+    "name": "Tonga-2",
+    "topLevelDomain": [
+      ".to-2"
+    ],
+    "capital": "Nuku'alofa-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 103252,
+    "demonym": "Tongan-2",
+    "area": 747.0,
+    "borders": [],
+    "numericCode": "776-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TTD-2",
+        "name": "Trinidad and Tobago dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tto.svg",
+    "cioc": "TTO-2",
+    "name": "Trinidad and Tobago-2",
+    "topLevelDomain": [
+      ".tt-2"
+    ],
+    "capital": "Port of Spain-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 1349667,
+    "demonym": "Trinidadian-2",
+    "area": 5130.0,
+    "borders": [],
+    "numericCode": "780-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TND-2",
+        "name": "Tunisian dinar-2",
+        "symbol": "د.ت-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tun.svg",
+    "cioc": "TUN-2",
+    "name": "Tunisia-2",
+    "topLevelDomain": [
+      ".tn-2"
+    ],
+    "capital": "Tunis-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 11154400,
+    "demonym": "Tunisian-2",
+    "area": 163610.0,
+    "borders": [
+      "DZA-2",
+      "LBY-2"
+    ],
+    "numericCode": "788-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TRY-2",
+        "name": "Turkish lira-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tur.svg",
+    "cioc": "TUR-2",
+    "name": "Turkey-2",
+    "topLevelDomain": [
+      ".tr-2"
+    ],
+    "capital": "Ankara-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 78741053,
+    "demonym": "Turkish-2",
+    "area": 783562.0,
+    "borders": [
+      "ARM-2",
+      "AZE-2",
+      "BGR-2",
+      "GEO-2",
+      "GRC-2",
+      "IRN-2",
+      "IRQ-2",
+      "SYR-2"
+    ],
+    "numericCode": "792-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "TMT-2",
+        "name": "Turkmenistan manat-2",
+        "symbol": "m-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tkm.svg",
+    "cioc": "TKM-2",
+    "name": "Turkmenistan-2",
+    "topLevelDomain": [
+      ".tm-2"
+    ],
+    "capital": "Ashgabat-2",
+    "region": "Asia-2",
+    "subregion": "Central Asia-2",
+    "population": 4751120,
+    "demonym": "Turkmen-2",
+    "area": 488100.0,
+    "borders": [
+      "AFG-2",
+      "IRN-2",
+      "KAZ-2",
+      "UZB-2"
+    ],
+    "numericCode": "795-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tca.svg",
+    "cioc": "-2",
+    "name": "Turks and Caicos Islands-2",
+    "topLevelDomain": [
+      ".tc-2"
+    ],
+    "capital": "Cockburn Town-2",
+    "region": "Americas-2",
+    "subregion": "Caribbean-2",
+    "population": 31458,
+    "demonym": "Turks and Caicos Islander-2",
+    "area": 948.0,
+    "borders": [],
+    "numericCode": "796-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD-2",
+        "name": "Australian dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "TVD[G]-2",
+        "name": "Tuvaluan dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/tuv.svg",
+    "cioc": "TUV-2",
+    "name": "Tuvalu-2",
+    "topLevelDomain": [
+      ".tv-2"
+    ],
+    "capital": "Funafuti-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 10640,
+    "demonym": "Tuvaluan-2",
+    "area": 26.0,
+    "borders": [],
+    "numericCode": "798-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "UGX-2",
+        "name": "Ugandan shilling-2",
+        "symbol": "Sh-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/uga.svg",
+    "cioc": "UGA-2",
+    "name": "Uganda-2",
+    "topLevelDomain": [
+      ".ug-2"
+    ],
+    "capital": "Kampala-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 33860700,
+    "demonym": "Ugandan-2",
+    "area": 241550.0,
+    "borders": [
+      "COD-2",
+      "KEN-2",
+      "RWA-2",
+      "SSD-2",
+      "TZA-2"
+    ],
+    "numericCode": "800-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "UAH-2",
+        "name": "Ukrainian hryvnia-2",
+        "symbol": "₴-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ukr.svg",
+    "cioc": "UKR-2",
+    "name": "Ukraine-2",
+    "topLevelDomain": [
+      ".ua-2"
+    ],
+    "capital": "Kiev-2",
+    "region": "Europe-2",
+    "subregion": "Eastern Europe-2",
+    "population": 42692393,
+    "demonym": "Ukrainian-2",
+    "area": 603700.0,
+    "borders": [
+      "BLR-2",
+      "HUN-2",
+      "MDA-2",
+      "POL-2",
+      "ROU-2",
+      "RUS-2",
+      "SVK-2"
+    ],
+    "numericCode": "804-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AED-2",
+        "name": "United Arab Emirates dirham-2",
+        "symbol": "د.إ-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/are.svg",
+    "cioc": "UAE-2",
+    "name": "United Arab Emirates-2",
+    "topLevelDomain": [
+      ".ae-2"
+    ],
+    "capital": "Abu Dhabi-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 9856000,
+    "demonym": "Emirati-2",
+    "area": 83600.0,
+    "borders": [
+      "OMN-2",
+      "SAU-2"
+    ],
+    "numericCode": "784-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "cioc": "GBR-2",
+    "name": "United Kingdom of Great Britain and Northern Ireland-2",
+    "topLevelDomain": [
+      ".uk-2"
+    ],
+    "capital": "London-2",
+    "region": "Europe-2",
+    "subregion": "Northern Europe-2",
+    "population": 65110000,
+    "demonym": "British-2",
+    "area": 242900.0,
+    "borders": [
+      "IRL-2"
+    ],
+    "numericCode": "826-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/usa.svg",
+    "cioc": "USA-2",
+    "name": "United States of America-2",
+    "topLevelDomain": [
+      ".us-2"
+    ],
+    "capital": "Washington, D.C.-2",
+    "region": "Americas-2",
+    "subregion": "Northern America-2",
+    "population": 323947000,
+    "demonym": "American-2",
+    "area": 9629091.0,
+    "borders": [
+      "CAN-2",
+      "MEX-2"
+    ],
+    "numericCode": "840-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "UYU-2",
+        "name": "Uruguayan peso-2",
+        "symbol": "$-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ury.svg",
+    "cioc": "URU-2",
+    "name": "Uruguay-2",
+    "topLevelDomain": [
+      ".uy-2"
+    ],
+    "capital": "Montevideo-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 3480222,
+    "demonym": "Uruguayan-2",
+    "area": 181034.0,
+    "borders": [
+      "ARG-2",
+      "BRA-2"
+    ],
+    "numericCode": "858-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "UZS-2",
+        "name": "Uzbekistani so'm-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/uzb.svg",
+    "cioc": "UZB-2",
+    "name": "Uzbekistan-2",
+    "topLevelDomain": [
+      ".uz-2"
+    ],
+    "capital": "Tashkent-2",
+    "region": "Asia-2",
+    "subregion": "Central Asia-2",
+    "population": 31576400,
+    "demonym": "Uzbekistani-2",
+    "area": 447400.0,
+    "borders": [
+      "AFG-2",
+      "KAZ-2",
+      "KGZ-2",
+      "TJK-2",
+      "TKM-2"
+    ],
+    "numericCode": "860-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "VUV-2",
+        "name": "Vanuatu vatu-2",
+        "symbol": "Vt-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vut.svg",
+    "cioc": "VAN-2",
+    "name": "Vanuatu-2",
+    "topLevelDomain": [
+      ".vu-2"
+    ],
+    "capital": "Port Vila-2",
+    "region": "Oceania-2",
+    "subregion": "Melanesia-2",
+    "population": 277500,
+    "demonym": "Ni-Vanuatu-2",
+    "area": 12189.0,
+    "borders": [],
+    "numericCode": "548-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "VEF-2",
+        "name": "Venezuelan bolívar-2",
+        "symbol": "Bs F-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ven.svg",
+    "cioc": "VEN-2",
+    "name": "Venezuela (Bolivarian Republic of)-2",
+    "topLevelDomain": [
+      ".ve-2"
+    ],
+    "capital": "Caracas-2",
+    "region": "Americas-2",
+    "subregion": "South America-2",
+    "population": 31028700,
+    "demonym": "Venezuelan-2",
+    "area": 916445.0,
+    "borders": [
+      "BRA-2",
+      "COL-2",
+      "GUY-2"
+    ],
+    "numericCode": "862-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "VND-2",
+        "name": "Vietnamese đồng-2",
+        "symbol": "₫-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/vnm.svg",
+    "cioc": "VIE-2",
+    "name": "Viet Nam-2",
+    "topLevelDomain": [
+      ".vn-2"
+    ],
+    "capital": "Hanoi-2",
+    "region": "Asia-2",
+    "subregion": "South-Eastern Asia-2",
+    "population": 92700000,
+    "demonym": "Vietnamese-2",
+    "area": 331212.0,
+    "borders": [
+      "KHM-2",
+      "CHN-2",
+      "LAO-2"
+    ],
+    "numericCode": "704-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XPF-2",
+        "name": "CFP franc-2",
+        "symbol": "Fr-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/wlf.svg",
+    "cioc": "-2",
+    "name": "Wallis and Futuna-2",
+    "topLevelDomain": [
+      ".wf-2"
+    ],
+    "capital": "Mata-Utu-2",
+    "region": "Oceania-2",
+    "subregion": "Polynesia-2",
+    "population": 11750,
+    "demonym": "Wallis and Futuna Islander-2",
+    "area": 142.0,
+    "borders": [],
+    "numericCode": "876-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "MAD-2",
+        "name": "Moroccan dirham-2",
+        "symbol": "د.م.-2"
+      },
+      {
+        "code": "DZD-2",
+        "name": "Algerian dinar-2",
+        "symbol": "د.ج-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/esh.svg",
+    "cioc": "-2",
+    "name": "Western Sahara-2",
+    "topLevelDomain": [
+      ".eh-2"
+    ],
+    "capital": "El Aaiún-2",
+    "region": "Africa-2",
+    "subregion": "Northern Africa-2",
+    "population": 510713,
+    "demonym": "Sahrawi-2",
+    "area": 266000.0,
+    "borders": [
+      "DZA-2",
+      "MRT-2",
+      "MAR-2"
+    ],
+    "numericCode": "732-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "YER-2",
+        "name": "Yemeni rial-2",
+        "symbol": "﷼-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/yem.svg",
+    "cioc": "YEM-2",
+    "name": "Yemen-2",
+    "topLevelDomain": [
+      ".ye-2"
+    ],
+    "capital": "Sana'a-2",
+    "region": "Asia-2",
+    "subregion": "Western Asia-2",
+    "population": 27478000,
+    "demonym": "Yemeni-2",
+    "area": 527968.0,
+    "borders": [
+      "OMN-2",
+      "SAU-2"
+    ],
+    "numericCode": "887-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ZMW-2",
+        "name": "Zambian kwacha-2",
+        "symbol": "ZK-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/zmb.svg",
+    "cioc": "ZAM-2",
+    "name": "Zambia-2",
+    "topLevelDomain": [
+      ".zm-2"
+    ],
+    "capital": "Lusaka-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 15933883,
+    "demonym": "Zambian-2",
+    "area": 752612.0,
+    "borders": [
+      "AGO-2",
+      "BWA-2",
+      "COD-2",
+      "MWI-2",
+      "MOZ-2",
+      "NAM-2",
+      "TZA-2",
+      "ZWE-2"
+    ],
+    "numericCode": "894-2"
+  },
+  {
+    "currencies": [
+      {
+        "code": "BWP-2",
+        "name": "Botswana pula-2",
+        "symbol": "P-2"
+      },
+      {
+        "code": "GBP-2",
+        "name": "British pound-2",
+        "symbol": "£-2"
+      },
+      {
+        "code": "CNY-2",
+        "name": "Chinese yuan-2",
+        "symbol": "¥-2"
+      },
+      {
+        "code": "EUR-2",
+        "name": "Euro-2",
+        "symbol": "€-2"
+      },
+      {
+        "code": "INR-2",
+        "name": "Indian rupee-2",
+        "symbol": "₹-2"
+      },
+      {
+        "code": "JPY-2",
+        "name": "Japanese yen-2",
+        "symbol": "¥-2"
+      },
+      {
+        "code": "ZAR-2",
+        "name": "South African rand-2",
+        "symbol": "Rs-2"
+      },
+      {
+        "code": "USD-2",
+        "name": "United States dollar-2",
+        "symbol": "$-2"
+      },
+      {
+        "code": "(none)-2"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/zwe.svg",
+    "cioc": "ZIM-2",
+    "name": "Zimbabwe-2",
+    "topLevelDomain": [
+      ".zw-2"
+    ],
+    "capital": "Harare-2",
+    "region": "Africa-2",
+    "subregion": "Eastern Africa-2",
+    "population": 14240168,
+    "demonym": "Zimbabwean-2",
+    "area": 390757.0,
+    "borders": [
+      "BWA-2",
+      "MOZ-2",
+      "ZAF-2",
+      "ZMB-2"
+    ],
+    "numericCode": "716-2"
+  }
