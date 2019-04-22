@@ -57,7 +57,7 @@ class Table extends PureComponent {
     rows: PropTypes.array,
   }
 
-  state={
+  state = {
     activeRow: null,
     activeColumn: null
   }

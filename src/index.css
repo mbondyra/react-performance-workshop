@@ -33,6 +33,24 @@ tbody td.selected {
   box-shadow: 1px 0px 0 0 #b3def4, 0px 1px 0 0 #b3def4, 0px 0px 0 0 #b3def4, 1px 1px 0 0 #b3def4;
 }
 
+td.trash{
+  text-align: center;
+  font-size: 24px;
+}
+ td.trash span{
+  padding: 5px 13px 2px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 13px;
+ }
+
+
+ td.trash:hover span{
+  padding: 5px 13px 2px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 13px;
+ }
+
+
 #count-display {
   position: fixed;
   bottom: 0;

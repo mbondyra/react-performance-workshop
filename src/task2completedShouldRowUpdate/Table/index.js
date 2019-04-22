@@ -2,8 +2,6 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
 
-//pass less props
-
 const HeaderCell = React.memo(({key, name}) => {
   eventCounter('HeaderCell');
   return <th key={key}>{name}</th>
