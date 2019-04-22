@@ -2,40 +2,44 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
 
-const emptyStyles = {}
+//pass less props
 
 const HeaderCell = React.memo(({name}) => {
-  eventCounter('HeaderCell')
+  eventCounter('HeaderCell');
   return <th>{name}</th>
 })
 
-const Row = React.memo(({row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
+
+
+const emptyStyles = {}
+
+const Row = React.memo(({row, rowIdx, columns, onCellClick, selectedCell, onClickRemove}) => {
   eventCounter('Row');
   return (
     <tr>
-      <td className='trash' onClick={()=> onRemoveClick(row)}>
-        <span role='img' aria-label='remove'>🗑️</span>
+      <td className='trash' onClick={()=> onClickRemove(row)}>
+          <span role='img' aria-label='remove'>🗑️</span>
       </td>
-      {columns.map(({key, structure, styles}) =>
+      {columns.map((column, columnIdx) =>
         <Cell
-          key={key}
-          columnKey={key}
-          rowKey={row.name}
+          key={columnIdx}
           name={row.name}
-          content={row[key]}
-          structure={structure}
-          isSelected={columnSelectedInThisRow === key}
-          styles={styles || emptyStyles}
+          content={row[column.key]}
+          rowIdx={rowIdx}
+          columnIdx={columnIdx}
+          structure={column.structure}
           onClick={onCellClick}
+          selected={selectedCell === columnIdx}
+          styles={column.styles || emptyStyles}
         />)}
     </tr>
   )
 })
 
-const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, onClick, isSelected}) => {
+const Cell =  React.memo(({name, content, rowIdx, structure, columnIdx, styles, onClick, selected})  => {
   eventCounter('Cell')
   return (
-    <td onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? 'selected' : ''}>
+    <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
       { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
     </td>
   )
@@ -59,35 +63,26 @@ class Table extends PureComponent {
     this.setState({activeRow, activeColumn})
   }
 
-  removeRow = (rowToDelete) => {
-    this.setState({rows: this.state.rows.filter((row) => {
-        return row !== rowToDelete
-    })})
-}
-
   render() {
     eventCounter('Table')
     const {rows, columns} = this.state
     return (
       <table>
         <thead>
-          <tr>
-            <th>Actions</th>
-            {columns.map(
-              column => <HeaderCell key={column.key} name={column.name}/>
-            )}
-          </tr>
+          <tr>{columns.map(column => <HeaderCell key={column.key} name={column.name}/>)}</tr>
         </thead>
         <tbody>
-        {rows.map( row =>
+        {rows.map((row, rowIdx)=>
           <Row
-            key={row.name}
-            rowId={row.name}
+            key={rowIdx}
             row={row}
             columns={columns}
-            columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
+            rowIdx={rowIdx}
+            selectedCell={this.state.activeRow === rowIdx && this.state.activeColumn}
             onCellClick={this.setActiveCell}
-            onRemoveClick={this.removeRow}
+            onClickRemove={rowToDelete => {
+              this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
+            }}
           />
         )}
         </tbody>

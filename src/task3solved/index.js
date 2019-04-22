@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import rows from '../lib/countriesAll.json'
+import React, { PureComponent } from 'react';
+import rows from '../lib/countries.json'
 import Table from './Table'
+import {whyDidYouUpdate} from 'why-did-you-update'
 
 const columns = [
   { key: 'name', name: 'Name' },
@@ -13,15 +14,11 @@ const columns = [
   { key: 'subregion', name: 'Subregion' },
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
-  { key: 'borders', name: 'Borders', structure: 'array' },
-  //{ key: 'currencies', name: 'Currency' },
-  // { key: 'nativeName', name: 'Native Name' },
 ];
 
-const {whyDidYouUpdate} = require('why-did-you-update');
-whyDidYouUpdate(React);
+whyDidYouUpdate(React)
 
-class Task1 extends Component {
+class Task1 extends PureComponent {
   render() {
     return <Table columns={columns} rows={rows} />;
   }

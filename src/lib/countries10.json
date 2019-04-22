@@ -1,0 +1,265 @@
+[
+  {
+    "currencies": [
+      {
+        "code": "AFN",
+        "name": "Afghan afghani",
+        "symbol": "؋"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/afg.svg",
+    "cioc": "AFG",
+    "name": "Afghanistan",
+    "topLevelDomain": [
+      ".af"
+    ],
+    "capital": "Kabul",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "population": 27657145,
+    "demonym": "Afghan",
+    "area": 652230.0,
+    "borders": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
+    "numericCode": "004"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ala.svg",
+    "cioc": "",
+    "name": "Åland Islands",
+    "topLevelDomain": [
+      ".ax"
+    ],
+    "capital": "Mariehamn",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "population": 28875,
+    "demonym": "Ålandish",
+    "area": 1580.0,
+    "borders": [],
+    "numericCode": "248"
+  },
+  {
+    "currencies": [
+      {
+        "code": "ALL",
+        "name": "Albanian lek",
+        "symbol": "L"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/alb.svg",
+    "cioc": "ALB",
+    "name": "Albania",
+    "topLevelDomain": [
+      ".al"
+    ],
+    "capital": "Tirana",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 2886026,
+    "demonym": "Albanian",
+    "area": 28748.0,
+    "borders": [
+      "MNE",
+      "GRC",
+      "MKD",
+      "KOS"
+    ],
+    "numericCode": "008"
+  },
+  {
+    "currencies": [
+      {
+        "code": "DZD",
+        "name": "Algerian dinar",
+        "symbol": "د.ج"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/dza.svg",
+    "cioc": "ALG",
+    "name": "Algeria",
+    "topLevelDomain": [
+      ".dz"
+    ],
+    "capital": "Algiers",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "population": 40400000,
+    "demonym": "Algerian",
+    "area": 2381741.0,
+    "borders": [
+      "TUN",
+      "LBY",
+      "NER",
+      "ESH",
+      "MRT",
+      "MLI",
+      "MAR"
+    ],
+    "numericCode": "012"
+  },
+  {
+    "currencies": [
+      {
+        "code": "USD",
+        "name": "United State Dollar",
+        "symbol": "$"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/asm.svg",
+    "cioc": "ASA",
+    "name": "American Samoa",
+    "topLevelDomain": [
+      ".as"
+    ],
+    "capital": "Pago Pago",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "population": 57100,
+    "demonym": "American Samoan",
+    "area": 199.0,
+    "borders": [],
+    "numericCode": "016"
+  },
+  {
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/and.svg",
+    "cioc": "AND",
+    "name": "Andorra",
+    "topLevelDomain": [
+      ".ad"
+    ],
+    "capital": "Andorra la Vella",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 78014,
+    "demonym": "Andorran",
+    "area": 468.0,
+    "borders": [
+      "FRA",
+      "ESP"
+    ],
+    "numericCode": "020"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AOA",
+        "name": "Angolan kwanza",
+        "symbol": "Kz"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ago.svg",
+    "cioc": "ANG",
+    "name": "Angola",
+    "topLevelDomain": [
+      ".ao"
+    ],
+    "capital": "Luanda",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "population": 25868000,
+    "demonym": "Angolan",
+    "area": 1246700.0,
+    "borders": [
+      "COG",
+      "COD",
+      "ZMB",
+      "NAM"
+    ],
+    "numericCode": "024"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/aia.svg",
+    "cioc": "",
+    "name": "Anguilla",
+    "topLevelDomain": [
+      ".ai"
+    ],
+    "capital": "The Valley",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "population": 13452,
+    "demonym": "Anguillian",
+    "area": 91.0,
+    "borders": [],
+    "numericCode": "660"
+  },
+  {
+    "currencies": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$"
+      },
+      {
+        "code": "GBP",
+        "name": "British pound",
+        "symbol": "£"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/ata.svg",
+    "cioc": "",
+    "name": "Antarctica",
+    "topLevelDomain": [
+      ".aq"
+    ],
+    "capital": "",
+    "region": "Polar",
+    "subregion": "",
+    "population": 1000,
+    "demonym": "",
+    "area": 1.4E7,
+    "borders": [],
+    "numericCode": "010"
+  },
+  {
+    "currencies": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "flag": "https://restcountries.eu/data/atg.svg",
+    "cioc": "ANT",
+    "name": "Antigua and Barbuda",
+    "topLevelDomain": [
+      ".ag"
+    ],
+    "capital": "Saint John's",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "population": 86295,
+    "demonym": "Antiguan, Barbudan",
+    "area": 442.0,
+    "borders": [],
+    "numericCode": "028"
+  }
+]
