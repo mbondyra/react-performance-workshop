@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Task1 from './task3'
+import Task from './task4solved'
 
 class App extends Component {
   state = {
@@ -19,7 +19,7 @@ class App extends Component {
         <button type="button" onClick={this.handleToggle}>
           {this.state.toggle ? 'On' : 'Off'}
         </button>
-        <Task1/>
+        <Task/>
 
       </div>
     );

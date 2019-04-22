@@ -28,23 +28,29 @@ th, td {
   user-select: none;
 }
 
-tbody td.selected {
+.selected {
   background-color: rgba(251, 141, 130, 0.4);
   box-shadow: 1px 0px 0 0 #b3def4, 0px 1px 0 0 #b3def4, 0px 0px 0 0 #b3def4, 1px 1px 0 0 #b3def4;
 }
 
-td.trash{
+tr{
+  height: 120px;
+  width: 100px;
+}
+
+.trash{
   text-align: center;
   font-size: 24px;
+  cursor: pointer;
 }
- td.trash span{
+.trash span{
   padding: 5px 13px 2px;
   background: rgba(0,0,0,0.4);
   border-radius: 13px;
  }
 
 
- td.trash:hover span{
+.trash:hover span{
   padding: 5px 13px 2px;
   background: rgba(0,0,0,0.7);
   border-radius: 13px;
@@ -54,7 +60,7 @@ td.trash{
 #count-display {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   border:rgba(251, 141, 130, 0.9) 5px solid;
   background: rgba(35, 44, 61, 0.84);
   color: #fb8d82;
@@ -63,4 +69,28 @@ td.trash{
 #count-display pre {
   margin: 0;
   padding: 10px;
+}
+
+.row{
+text-align: center;
+white-space: nowrap;
+}
+
+
+.cell {
+  box-sizing: border-box;
+  border: 1px solid white;
+  display:inline-block;
+  white-space: normal;
+  width: 120px;
+  padding: 10px;
+  height: 90px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.headerCell {
+  font-weight: bold;
+  line-height:90px;
+  height:90px;
 }

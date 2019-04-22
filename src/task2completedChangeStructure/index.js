@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import rows from '../lib/countries.json'
+import rows from '../lib/countriesAll.json'
 import Table from './Table'
 
 const columns = [
