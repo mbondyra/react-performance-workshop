@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import Task1 from './task2'
+import Task1 from './task2completedBetter'
+
+
+
 
 class App extends Component {
   state = {

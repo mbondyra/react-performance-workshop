@@ -21,6 +21,7 @@ table{
   border-collapse: collapse;
 }
 th, td {
+  cursor: pointer;
   border: 1px solid white;
   padding: 13px 10px 11px;
   text-align: left;
@@ -28,6 +29,20 @@ th, td {
 }
 
 tbody td.selected {
-  background-color: #edf9ff;
+  background-color: rgba(251, 141, 130, 0.4);
   box-shadow: 1px 0px 0 0 #b3def4, 0px 1px 0 0 #b3def4, 0px 0px 0 0 #b3def4, 1px 1px 0 0 #b3def4;
+}
+
+#count-display {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border:rgba(251, 141, 130, 0.9) 5px solid;
+  background: rgba(35, 44, 61, 0.84);
+  color: #fb8d82;
+}
+
+#count-display pre {
+  margin: 0;
+  padding: 10px;
 }

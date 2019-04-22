@@ -1,24 +1,34 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import RenderCount from '../RenderCount'
+import eventCounter from '../../lib/eventCounter'
 
-const renderCount = new RenderCount()
 
 const HeaderCell = ({key, name}) => {
-  renderCount.add('headercell')
+
+  eventCounter('HeaderCell');
   return <th key={key}>{name}</th>
 }
 
-const Row = ({row, columns}) => {
-  renderCount.add('row')
-  return <tr key={row.id}>{columns.map(column =>
-    <Cell row={row} column={column} styles={column.styles || {}}/>)}
+const Row = ({row, rowIdx, columns, onClick, activeCell}) => {
+
+  eventCounter('Row');
+  return <tr key={row.id}>{columns.map((column, columnIdx) =>
+    <Cell
+      row={row}
+      rowIdx={rowIdx}
+      column={column}
+      columnIdx={columnIdx}
+      onClick={onClick}
+      activeCell={activeCell}
+      styles={column.styles || {}}
+    />)}
   </tr>
 }
 
-const Cell = ({row, column, styles})  => {
-  renderCount.add('cell')
-  return <td key={column.key}>
+const Cell = ({row, rowIdx, column, columnIdx, styles, onClick, activeCell})  => {
+  eventCounter('Cell')
+  const selected = rowIdx === activeCell[0] && columnIdx === activeCell[1]
+  return <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
     {
       column.structure === 'image'
       ? <img src={row[column.key]} style={styles} alt={row.name}/>
@@ -33,15 +43,26 @@ class Table extends PureComponent {
     rows: PropTypes.array,
   }
 
+  state={
+    activeRow: null,
+    activeColumn: null
+  }
+
   render() {
-    renderCount.add('table')
-    renderCount.display()
+    eventCounter('Table')
     return (
       <table>
         <thead>
           <tr>{this.props.columns.map(column => <HeaderCell key={column.key} name={column.name}/>)} </tr>
         </thead>
-        <tbody>{this.props.rows.map(row=> <Row row={row} columns={this.props.columns}/>)}</tbody>
+        <tbody>{this.props.rows.map((row, rowIdx)=>
+          <Row row={row}
+            activeCell={[this.state.activeRow, this.state.activeColumn]}
+            rowIdx={rowIdx}
+            columns={this.props.columns}
+            onClick={(activeRow, activeColumn)=>this.setState({activeRow, activeColumn})}/>
+          )}
+        </tbody>
       </table>
     )
   }
