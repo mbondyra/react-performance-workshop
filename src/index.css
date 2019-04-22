@@ -6,8 +6,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+
   background: #232c3d;
   color: white;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  max-width: 1120px;
+  padding: 30px;
+  margin: 0 auto;
+
+}
+
+.night{
+  color: white;
+  background: #232c3d;
+}
+
+.day {
+  background: #bec7d7;
+  color: #232c3d;
 }
 
 code {
@@ -22,7 +45,7 @@ table{
 }
 th, td {
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   padding: 13px 10px 11px;
   text-align: left;
   user-select: none;
@@ -40,22 +63,25 @@ tr{
 
 .trash{
   text-align: center;
-  font-size: 24px;
   cursor: pointer;
 }
 .trash span{
   padding: 5px 13px 2px;
   background: rgba(0,0,0,0.4);
   border-radius: 13px;
- }
+  font-size: 24px;
+}
 
 
 .trash:hover span{
   padding: 5px 13px 2px;
   background: rgba(0,0,0,0.7);
   border-radius: 13px;
- }
+}
 
+button {
+  cursor: pointer;
+}
 
 #count-display {
   position: fixed;
@@ -79,7 +105,7 @@ white-space: nowrap;
 
 .cell {
   box-sizing: border-box;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   display:inline-block;
   white-space: normal;
   width: 120px;
