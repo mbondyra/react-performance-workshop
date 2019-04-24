@@ -2,14 +2,10 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
 
-//pass less props
-
 const HeaderCell = React.memo(({name}) => {
   eventCounter('HeaderCell');
   return <th>{name}</th>
 })
-
-
 
 const emptyStyles = {}
 
@@ -29,17 +25,6 @@ const Row = React.memo(({row, rowIdx, columns, onCellClick, selectedCell}) => {
     />)}
   </tr>
 })
-
-// const Cell = React.memo(({name, rowIdx, content, columnIdx, styles, onClick, isSelected, structure}) => {
-//   eventCounter('Cell')
-//   return <td onClick = {()=>onClick(rowIdx, columnIdx)} className={isSelected ? 'selected' : ''}>
-//     {
-//       structure === 'image'
-//       ? <img src={content} style={styles} alt={name}/>
-//       : content
-//     }
-//   </td>
-// })
 
 const Cell =  React.memo(({name, content, rowIdx, structure, columnIdx, styles, onClick, selected})  => {
   eventCounter('Cell')

@@ -2,14 +2,10 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
 
-//pass less props
-
 const HeaderCell = React.memo(({name}) => {
   eventCounter('HeaderCell');
   return <th>{name}</th>
 })
-
-
 
 const emptyStyles = {}
 
@@ -56,7 +52,6 @@ class Table extends PureComponent {
     activeRow: null,
     activeColumn: null,
     rows: this.props.rows,
-    columns: this.props.columns
   }
 
   setActiveCell = (activeRow, activeColumn) => {

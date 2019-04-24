@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import Task from './task5'
+import {whyDidYouUpdate} from 'why-did-you-update'
+
+whyDidYouUpdate(React, {groupByComponent:true, collapseComponentGroups: true})
 
 class App extends Component {
   state = {
-    toggle: true,
+    toggle: true
   }
 
   handleToggle = () => {
@@ -12,16 +15,13 @@ class App extends Component {
     }));
   }
 
-
   render() {
-    const {toggle} = this.state
     return (
-      <main className={toggle ? 'night' : 'day' }>
+      <main className={this.state.toggle ? 'night' : 'day' }>
         <button type="button" onClick={this.handleToggle} >
           {this.state.toggle ? 'light theme' : 'dark theme'}
         </button>
         <Task/>
-
       </main>
     );
   }

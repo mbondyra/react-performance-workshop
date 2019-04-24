@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background: #232c3d;
 }
 
 header{
@@ -16,11 +18,9 @@ header{
 
 main{
   height: 100%;
-  width: 100%;
-  max-width: 1120px;
+  overflow-x: auto;
   padding: 30px;
   margin: 0 auto;
-
 }
 
 .night{
@@ -81,6 +81,14 @@ tr{
 
 button {
   cursor: pointer;
+  border: none;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.7;
 }
 
 #count-display {
@@ -120,3 +128,33 @@ white-space: nowrap;
   line-height:90px;
   height:90px;
 }
+
+.mapContainer{
+  height: 200px;
+  width: 300px;
+  left:0;
+  bottom: 0;
+  position: fixed;
+  z-index: 100;
+  background: whitesmoke
+}
+
+header{
+  color: #fb8d82;
+  height: 48px;
+  border-bottom:  1px solid #131821;
+  line-height: 48px;
+}
+  header img {
+    height: 30px;
+    margin: 0 10px 0 30px;
+    vertical-align: middle;
+  }
+  header h1{
+    font-size: 18px;
+    height: 48px;
+    margin: 0;
+    line-height: 48px;
+    padding: 0;
+    vertical-align: middle;
+  }

@@ -14,12 +14,7 @@ const columns = [
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
   { key: 'borders', name: 'Borders', structure: 'array' },
-  //{ key: 'currencies', name: 'Currency' },
-  // { key: 'nativeName', name: 'Native Name' },
 ];
-
-const {whyDidYouUpdate} = require('why-did-you-update');
-whyDidYouUpdate(React);
 
 class Task1 extends Component {
   render() {

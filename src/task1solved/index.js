@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import rows from '../lib/countriesAll.json'
 import Table from './Table'
 
@@ -13,9 +13,10 @@ const columns = [
   { key: 'subregion', name: 'Subregion' },
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
+  { key: 'borders', name: 'Borders', structure: 'array' },
 ]
 
-class Task1 extends PureComponent {
+class Task1 extends Component {
   render() {
     return <Table columns={columns} rows={rows} />;
   }

@@ -10,7 +10,7 @@ const mapStyles = {
   height: '100%'
 }
 
-export class MapContainer extends React.Component {
+export class MapContainer extends React.PureComponent {
 
   render() {
     const latLng = {

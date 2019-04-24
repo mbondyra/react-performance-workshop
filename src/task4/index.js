@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import rows from '../lib/countriesAll.json'
 import Table from './Table'
-import {whyDidYouUpdate} from 'why-did-you-update'
 
 const columns = [
   { key: 'name', name: 'Name' },
@@ -16,7 +15,6 @@ const columns = [
   { key: 'area', name: 'Area' },
 ];
 
-whyDidYouUpdate(React)
 
 class Task1 extends PureComponent {
   render() {

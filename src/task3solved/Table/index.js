@@ -52,7 +52,6 @@ class Table extends PureComponent {
     activeRow: null,
     activeColumn: null,
     rows: this.props.rows,
-    columns: this.props.columns
   }
 
   setActiveCell = (activeRow, activeColumn) => {

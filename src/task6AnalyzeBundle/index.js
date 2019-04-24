@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import rows from '../lib/countriesAll.json'
+import React, { PureComponent } from 'react';
+import data from '../lib/countriesAll.json'
 import Table from './Table'
 
 const columns = [
@@ -13,17 +13,12 @@ const columns = [
   { key: 'subregion', name: 'Subregion' },
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
-  { key: 'borders', name: 'Borders', structure: 'array' },
-  // { key: 'nativeName', name: 'Native Name' },
-  //{ key: 'currencies', name: 'Currency' },
 ];
 
 
-// use PureComponent || React.memo || shouldComponentUpdate
-// avoid executing operations in render method (don't create new objects in render method)
-class Task1 extends Component {
+class Task1 extends PureComponent {
   render() {
-    return <Table columns={columns} rows={rows} />;
+    return <Table columns={columns} data={data} />;
   }
 }
 

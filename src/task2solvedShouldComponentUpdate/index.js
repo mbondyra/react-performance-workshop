@@ -14,9 +14,7 @@ const columns = [
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
   { key: 'borders', name: 'Borders', structure: 'array' },
-  //{ key: 'currencies', name: 'Currency' },
-  // { key: 'nativeName', name: 'Native Name' },
-];
+]
 
 
 class Task1 extends Component {

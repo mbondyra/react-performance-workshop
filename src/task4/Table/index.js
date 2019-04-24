@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
-import { FixedSizeList as List } from 'react-window'
 
 const emptyStyles = {}
 
@@ -52,7 +51,6 @@ class Table extends PureComponent {
     activeRow: null,
     activeColumn: null,
     rows: this.props.rows,
-    columns: this.props.columns
   }
 
   setActiveCell = (activeRow, activeColumn) => {
@@ -74,7 +72,7 @@ class Table extends PureComponent {
       key={row.name}
       rowId={row.name}
       row={row}
-      columns={this.state.columns}
+      columns={this.props.columns}
       columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
       onCellClick={this.setActiveCell}
       onRemoveClick={this.removeRow}
@@ -85,7 +83,7 @@ class Table extends PureComponent {
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>
       {
-        this.state.columns.map(
+        this.props.columns.map(
           column => <HeaderCell key={column.key} name={column.name}/>
         )
       }

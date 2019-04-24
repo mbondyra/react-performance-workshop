@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const HeaderCell = ({column}) => <th key={column.key}>{column.name}</th>
 
 const Row = ({row, columns}) => <tr key={row.id}>{columns.map(column =>
-    <Cell row={row} column={column} styles={column.styles || {}}/>)}
-  </tr>
+  <Cell row={row} column={column} styles={column.styles || {}}/>)}
+</tr>
 
 const Cell = ({row, column, styles}) => (
   <td key={column.key}>

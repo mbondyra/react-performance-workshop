@@ -12,10 +12,9 @@ class Row extends React.Component {
     return this.props.isSelected || ( prevProps.isSelected !== this.props.isSelected)
   }
   render(){
-    const {id, children} = this.props
     eventCounter('Row');
-    return <tr key={id}>
-      {children}
+    return <tr>
+      {this.props.children}
     </tr>
   }
 
@@ -46,24 +45,6 @@ class Table extends PureComponent {
     this.setState({activeRow, activeColumn})
   }
 
-  renderRow = (row, rowIdx) => {
-    return <Row isSelected={rowIdx === this.state.activeRow}>
-      {this.props.columns.map((column, columnIdx) => {
-        return <Cell
-        name={row.name}
-        content={row[column.key]}
-        structure={column.structure}
-        rowIdx={rowIdx}
-        columnIdx={columnIdx}
-        onClick={this.setActiveCell}
-        selected={rowIdx === this.state.activeRow && columnIdx === this.state.activeColumn}
-        styles={column.styles || emptyStyles}
-      />
-      })}
-    </Row>
-  }
-
-
   render() {
     eventCounter('Table')
     const columns = this.props.columns
@@ -73,7 +54,22 @@ class Table extends PureComponent {
           <tr>{columns.map(column => <HeaderCell key={column.key} name={column.name}/>)} </tr>
         </thead>
         <tbody>
-          {this.props.rows.map(this.renderRow)}
+          {this.props.rows.map((row, rowIdx) => (
+            <Row isSelected={rowIdx === this.state.activeRow}>
+              {this.props.columns.map((column, columnIdx) => (
+              <Cell
+                name={row.name}
+                content={row[column.key]}
+                structure={column.structure}
+                rowIdx={rowIdx}
+                columnIdx={columnIdx}
+                onClick={this.setActiveCell}
+                selected={rowIdx === this.state.activeRow && columnIdx === this.state.activeColumn}
+                styles={column.styles || emptyStyles}
+              />
+              ))}
+            </Row>
+          ))}
         </tbody>
       </table>
     )

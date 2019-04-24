@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import rows from '../lib/countriesAll.json'
+import data from '../lib/countriesAll.json'
 import Table from './Table'
 
 const columns = [
@@ -13,11 +13,11 @@ const columns = [
   { key: 'subregion', name: 'Subregion' },
   { key: 'demonym', name: 'Demonym' },
   { key: 'area', name: 'Area' },
-]
+];
 
 class Task1 extends PureComponent {
   render() {
-    return <Table columns={columns} rows={rows} />;
+    return <Table columns={columns} data={data} />;
   }
 }
 

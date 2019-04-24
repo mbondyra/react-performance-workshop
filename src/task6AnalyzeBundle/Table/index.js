@@ -1,9 +1,11 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent, Suspense } from 'react'
 import PropTypes from 'prop-types'
 import eventCounter from '../../lib/eventCounter'
 import { FixedSizeList as List } from 'react-window'
 import _ from 'lodash'
-import Map from '../map'
+
+const Map = React.lazy(() => import('../map'))
+
 const emptyStyles = {}
 
 const HeaderCell = React.memo(({name}) => {
@@ -90,23 +92,29 @@ class Table extends PureComponent {
   renderHeader(){
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>
-      {_.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>)}
+      {
+        _.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>)
+      }
     </div>
   }
 
   render() {
     eventCounter('Table')
-    const {data, activeColumn, activeRow} = this.state
+    const {data} = this.state
     return (
       <div>
-        {this.state.activeColumn === 'name' && <Map latLng={this.getLatLng()} />}
+        {this.state.activeColumn === 'name' &&
+        <Suspense fallback={<div className='mapContainer'>Loading...</div>}>
+          <Map latLng={this.getLatLng()} />
+        </Suspense>
+        }
         <div className='grid'>
           <List
             height={window.innerHeight}
             itemCount={data.length}
             itemSize={90}
             width={1000}
-            itemData={[activeRow, activeColumn]}
+            itemData={[this.state.activeRow, this.state.activeColumn]}
           >
             {this.renderRow}
           </List>

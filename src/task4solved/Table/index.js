@@ -74,7 +74,7 @@ class Table extends PureComponent {
       key={row.name}
       rowId={row.name}
       row={row}
-      columns={this.state.columns}
+      columns={this.props.columns}
       columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
       onCellClick={this.setActiveCell}
       onRemoveClick={this.removeRow}
@@ -85,7 +85,7 @@ class Table extends PureComponent {
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>
       {
-        this.state.columns.map(
+        this.props.columns.map(
           column => <HeaderCell key={column.key} name={column.name}/>
         )
       }
@@ -99,7 +99,7 @@ class Table extends PureComponent {
       <div className='grid'>
         <List
           height={window.innerHeight}
-          itemCount={rows.length}
+          itemCount={rows.length + 1}
           itemSize={90}
           width={1000}
           itemData={[this.state.activeRow, this.state.activeColumn]}
