@@ -58,9 +58,14 @@ class Table extends PureComponent {
     this.setState({activeRow, activeColumn})
   }
 
+  removeRow = rowToDelete => {
+    this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
+  }
+
   render() {
     eventCounter('Table')
-    const {rows, columns} = this.state
+    const {columns} =this.props
+    const {rows} = this.state
     return (
       <table>
         <thead>
@@ -75,9 +80,7 @@ class Table extends PureComponent {
             rowIdx={rowIdx}
             selectedCell={this.state.activeRow === rowIdx && this.state.activeColumn}
             onCellClick={this.setActiveCell}
-            onClickRemove={rowToDelete => {
-              this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
-            }}
+            onClickRemove={this.removeRow}
           />
         )}
         </tbody>

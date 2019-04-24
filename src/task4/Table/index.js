@@ -92,7 +92,9 @@ class Table extends PureComponent {
 
   render() {
     eventCounter('Table')
-    const {rows, columns} = this.state
+
+    const {columns} =this.props
+    const {rows} = this.state
     return (
       <div className='grid'>
         {this.renderHeader()}

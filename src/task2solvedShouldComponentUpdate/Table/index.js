@@ -20,11 +20,11 @@ class Row extends React.Component {
 
 }
 
-const Cell =  React.memo(({name, content, rowIdx, structure, columnIdx, styles, onClick, selected})  => {
+const Cell =  React.memo(({row, column, rowIdx, columnIdx, styles, onClick, selected})  => {
   eventCounter('Cell')
   return (
     <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
-      { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
+      { column.structure === 'image' ? <img src={row[column.key]} style={styles} alt={row.name}/> : row[column.key] }
     </td>
   )
 })
@@ -58,9 +58,8 @@ class Table extends PureComponent {
             <Row isSelected={rowIdx === this.state.activeRow}>
               {this.props.columns.map((column, columnIdx) => (
               <Cell
-                name={row.name}
-                content={row[column.key]}
-                structure={column.structure}
+                row={row}
+                column={column}
                 rowIdx={rowIdx}
                 columnIdx={columnIdx}
                 onClick={this.setActiveCell}
