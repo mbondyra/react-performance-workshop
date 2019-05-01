@@ -1,26 +1,72 @@
-import React, { Component } from 'react';
-import rows from '../lib/countriesAll.json'
-import Table from './Table'
+import React, { PureComponent } from 'react'
 
-const columns = [
-  { key: 'name', name: 'Name' },
-  { key: 'capital', name: 'Capital' },
-  { key: 'flag', name: 'Flag', structure: 'image', styles: {width:'100px'}},
-  { key: 'population', name: 'Population' },
-  { key: 'topLevelDomain', name: 'Domain', structure: 'array' },
-  { key: 'numericCode', name: 'Numeric Code' },
-  { key: 'region', name: 'region'},
-  { key: 'subregion', name: 'Subregion' },
-  { key: 'demonym', name: 'Demonym' },
-  { key: 'area', name: 'Area' },
-  { key: 'borders', name: 'Borders', structure: 'array' },
-]
+import eventCounter from '../lib/eventCounter'
 
+const HeaderCell = React.memo(({key, name}) => {
+  eventCounter('HeaderCell');
+  return <th key={key}>{name}</th>
+})
 
-class Task1 extends Component {
-  render() {
-    return <Table columns={columns} rows={rows} />;
+class Row extends React.Component {
+  shouldComponentUpdate(nextProps){
+    return this.props.isSelected || ( nextProps.isSelected !== this.props.isSelected)
+  }
+  render(){
+    eventCounter('Row');
+    return <tr>
+      {this.props.children}
+    </tr>
   }
 }
 
-export default Task1
+const Cell =  React.memo(({row, column, rowIdx, columnIdx, styles, onClick, selected})  => {
+  eventCounter('Cell')
+  return (
+    <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
+      { column.structure === 'image' ? <img src={row[column.key]} style={styles} alt={row.name}/> : row[column.key] }
+    </td>
+  )
+})
+
+const emptyStyles = {}
+class Table extends PureComponent {
+  state={
+    activeRow: null,
+    activeColumn: null
+  }
+
+  setActiveCell = (activeRow, activeColumn) => {
+    this.setState({activeRow, activeColumn})
+  }
+
+  render() {
+    eventCounter('Table')
+    const columns = this.props.columns
+    return (
+      <table>
+        <thead>
+          <tr>{columns.map(column => <HeaderCell key={column.key} name={column.name}/>)} </tr>
+        </thead>
+        <tbody>
+          {this.props.rows.map((row, rowIdx) => (
+            <Row isSelected={rowIdx === this.state.activeRow}>
+              {this.props.columns.map((column, columnIdx) => (
+              <Cell
+                row={row}
+                column={column}
+                rowIdx={rowIdx}
+                columnIdx={columnIdx}
+                onClick={this.setActiveCell}
+                selected={rowIdx === this.state.activeRow && columnIdx === this.state.activeColumn}
+                styles={column.styles || emptyStyles}
+              />
+              ))}
+            </Row>
+          ))}
+        </tbody>
+      </table>
+    )
+  }
+}
+
+export default Table

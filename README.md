@@ -1,5 +1,9 @@
 
-## STEP 1: Instructions for running the environment
+# PREPARING THE ENVIRONMENT
+
+## STEP 1: Install React Chrome Extension
+
+## STEP 2: Instructions for running the environment
 
     1. Make sure you have those things installed by typing in your terminal:
         - node (you can get node from here: https://www.npmjs.com/get-npm)

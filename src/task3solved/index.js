@@ -1,24 +1,94 @@
-import React, { PureComponent } from 'react';
-import rows from '../lib/countriesAll.json'
-import Table from './Table'
+import React, { PureComponent } from 'react'
 
-const columns = [
-  { key: 'name', name: 'Name' },
-  { key: 'capital', name: 'Capital' },
-  { key: 'flag', name: 'Flag', structure: 'image', styles: {width:'100px'}},
-  { key: 'population', name: 'Population' },
-  { key: 'topLevelDomain', name: 'Domain', structure: 'array' },
-  { key: 'numericCode', name: 'Numeric Code' },
-  { key: 'region', name: 'region'},
-  { key: 'subregion', name: 'Subregion' },
-  { key: 'demonym', name: 'Demonym' },
-  { key: 'area', name: 'Area' },
-]
+import eventCounter from '../lib/eventCounter'
 
-class Task1 extends PureComponent {
+const emptyStyles = {}
+
+const HeaderCell = React.memo(({name}) => {
+  eventCounter('HeaderCell')
+  return <th>{name}</th>
+})
+
+const Row = React.memo(({row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
+  eventCounter('Row');
+  return (
+    <tr>
+      <td className='trash' onClick={()=> onRemoveClick(row)}>
+        <span role='img' aria-label='remove'>🗑️</span>
+      </td>
+      {columns.map(({key, structure, styles}) =>
+        <Cell
+          key={key}
+          columnKey={key}
+          rowKey={row.name}
+          name={row.name}
+          content={row[key]}
+          structure={structure}
+          isSelected={columnSelectedInThisRow === key}
+          styles={styles || emptyStyles}
+          onClick={onCellClick}
+        />)}
+    </tr>
+  )
+})
+
+const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, onClick, isSelected}) => {
+  eventCounter('Cell')
+  return (
+    <td onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? 'selected' : ''}>
+      { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
+    </td>
+  )
+})
+
+
+class Table extends PureComponent {
+
+
+  state = {
+    activeRow: null,
+    activeColumn: null,
+    rows: this.props.rows,
+  }
+
+  setActiveCell = (activeRow, activeColumn) => {
+    this.setState({activeRow, activeColumn})
+  }
+
+  removeRow = rowToDelete => {
+    this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
+  }
+
   render() {
-    return <Table columns={columns} rows={rows} />;
+    eventCounter('Table')
+    const {columns} =this.props
+    const {rows} = this.state
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Actions</th>
+            {columns.map(
+              column => <HeaderCell key={column.key} name={column.name}/>
+            )}
+          </tr>
+        </thead>
+        <tbody>
+        {rows.map( row =>
+          <Row
+            key={row.name}
+            rowId={row.name}
+            row={row}
+            columns={columns}
+            columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
+            onCellClick={this.setActiveCell}
+            onRemoveClick={this.removeRow}
+          />
+        )}
+        </tbody>
+      </table>
+    )
   }
 }
 
-export default Task1
+export default Table

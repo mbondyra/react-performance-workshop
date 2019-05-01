@@ -1,24 +1,31 @@
-import React, { Component } from 'react';
-import rows from '../lib/countriesAll.json'
-import Table from './Table'
+import React, { Component } from 'react'
 
-class Task1 extends Component {
+const HeaderCell = ({name}) => <th>{name}</th>
+
+const Row = ({row, columns}) => <tr>{columns.map(column =>
+  <Cell key={column.key} row={row} column={column} styles={column.styles || {}}/>)}
+</tr>
+
+const Cell = ({row, column, styles}) => (
+  <td>
+    {
+      column.structure === 'image'
+      ? <img src={row[column.key]} style={styles} alt={row.name}/>
+      : row[column.key]
+    }
+  </td>)
+
+class Table extends Component {
   render() {
-    const columns = [
-      { key: 'name', name: 'Name' },
-      { key: 'capital', name: 'Capital' },
-      { key: 'flag', name: 'Flag', structure: 'image', styles: {width:'100px'}},
-      { key: 'population', name: 'Population' },
-      { key: 'topLevelDomain', name: 'Domain', structure: 'array' },
-      { key: 'numericCode', name: 'Numeric Code' },
-      { key: 'region', name: 'region'},
-      { key: 'subregion', name: 'Subregion' },
-      { key: 'demonym', name: 'Demonym' },
-      { key: 'area', name: 'Area' },
-      { key: 'borders', name: 'Borders', structure: 'array' },
-    ]
-    return <Table columns={columns} rows={rows} />;
+    return (
+      <table>
+        <thead>
+          <tr>{this.props.columns.map(column => <HeaderCell key={column.key} name={column.name}/>)}</tr>
+        </thead>
+        <tbody>{this.props.rows.map(row=> <Row key={row.name} row={row} columns={this.props.columns}/>)}</tbody>
+      </table>
+    )
   }
 }
 
-export default Task1
+export default Table

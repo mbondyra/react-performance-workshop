@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import Task from './task1'
-import {whyDidYouUpdate} from 'why-did-you-update'
+import Task from './task0'
+import rows from './lib/countriesAll.json'
 
-whyDidYouUpdate(React, {groupByComponent:true, collapseComponentGroups: true})
+// to uncomment during task 2
+// import {whyDidYouUpdate} from 'why-did-you-update'
+// whyDidYouUpdate(React, {groupByComponent:true, collapseComponentGroups: true})
 
 class App extends Component {
   state = {
@@ -16,12 +18,26 @@ class App extends Component {
   }
 
   render() {
+    const columns = [
+      { key: 'name', name: 'Name' },
+      { key: 'capital', name: 'Capital' },
+      { key: 'flag', name: 'Flag', structure: 'image', styles: {width:'100px'}},
+      { key: 'population', name: 'Population' },
+      { key: 'topLevelDomain', name: 'Domain', structure: 'array' },
+      { key: 'numericCode', name: 'Numeric Code' },
+      { key: 'region', name: 'region'},
+      { key: 'subregion', name: 'Subregion' },
+      { key: 'demonym', name: 'Demonym' },
+      { key: 'area', name: 'Area' },
+      { key: 'borders', name: 'Borders', structure: 'array' },
+    ]
+
     return (
-      <main className={this.state.toggle ? 'night' : 'day' }>
+      <main className='night'>
         <button type="button" onClick={this.handleToggle} >
           {this.state.toggle ? 'light theme' : 'dark theme'}
         </button>
-        <Task/>
+        <Task columns={columns} rows={rows} />
       </main>
     );
   }
