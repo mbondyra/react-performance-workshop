@@ -1,6 +1,6 @@
 # WARMUP
 
-Files used to finish the task 0: src/App.js src/task0/index.js
+Files used to finish the task 0: src/App.js, src/task0/index.js
 
 ## STEP 1: Get familiar with the structure of the project
 

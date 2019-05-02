@@ -29,7 +29,7 @@ class App extends Component {
     ]
 
     return (
-      <main className={this.state.toggle ? 'night': 'day'}>
+      <main className='night'>
         <button type="button" onClick={this.handleToggle} >
           {this.state.toggle ? 'light theme' : 'dark theme'}
         </button>
