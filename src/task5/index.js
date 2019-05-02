@@ -67,24 +67,6 @@ class Table extends PureComponent {
     this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
   }
 
-  renderRow = ({index, style}) => {
-    if (index === 0) {
-      return this.renderHeader()
-    }
-
-    const row = this.state.rows[index+1]
-    return <Row
-      style={style}
-      key={row.name}
-      rowId={row.name}
-      row={row}
-      columns={this.props.columns}
-      columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
-      onCellClick={this.setActiveCell}
-      onRemoveClick={this.removeRow}
-    />
-  }
-
   renderHeader(){
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>

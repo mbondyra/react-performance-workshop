@@ -64,7 +64,10 @@ class Table extends PureComponent {
     return (
       <table>
         <thead>
-          <tr>{columns.map(column => <HeaderCell key={column.key} name={column.name}/>)}</tr>
+          <tr>
+            <th>Remove</th>
+            {columns.map(column => <HeaderCell key={column.key} name={column.name}/>)}
+          </tr>
         </thead>
         <tbody>
         {rows.map((row, rowIdx)=>

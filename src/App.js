@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import Task from './task5'
-import rows from './lib/countriesAll.json'
-import {whyDidYouUpdate} from 'why-did-you-update'
-whyDidYouUpdate(React)
+import Task from './task1'
+import rows from './lib/countriesDuplicated.json'
+
 class App extends Component {
   state = {
     toggle: true

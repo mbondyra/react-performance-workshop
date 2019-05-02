@@ -7,9 +7,9 @@
 
     1. Make sure you have those things installed by typing in your terminal:
         - node (you can get node from here: https://www.npmjs.com/get-npm)
-        - yarn
+        - yarn (https://yarnpkg.com/en/docs/install)
 
-    2. Install all the dependencies with: `yarn` (if you don't have yarn, install it here: https://yarnpkg.com/en/docs/install)
+    2. Install all the dependencies with: `yarn`
 
     3. Run your project with: `yarn start`
 
