@@ -58,7 +58,6 @@ class Table extends PureComponent {
                 columnIdx={columnIdx}
                 onClick={this.setActiveCell}
                 selected={rowIdx === this.state.activeRow && columnIdx === this.state.activeColumn}
-                styles={column.styles || emptyStyles}
               />
               ))}
             </Row>

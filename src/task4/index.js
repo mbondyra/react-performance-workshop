@@ -1,44 +1,46 @@
 import React, { PureComponent } from 'react'
-import eventCounter from '../lib/eventCounter'
 
-const emptyStyles = {}
+import eventCounter from '../lib/eventCounter'
 
 const HeaderCell = React.memo(({name}) => {
   eventCounter('HeaderCell')
-  return <div className='cell headerCell'>{name}</div>
+  return <th>{name}</th>
 })
 
-const Row = React.memo(({style, row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
-  eventCounter('Row');
+const emptyStyles = {}
+
+const Row = React.memo(({row, rowIdx, columns, onCellClick, selectedCell, onClickRemove}) => {
+  eventCounter('Row')
   return (
-    <div className='row' style={style}>
-      <div className='trash cell' onClick={()=> onRemoveClick(row)}>
-        <span role='img' aria-label='remove'>🗑️</span>
-      </div>
-      {columns.map(({key, structure, styles}) =>
+    <tr>
+      <td className='trash' onClick={()=> onClickRemove(row)}>
+          <span role='img' aria-label='remove'>🗑️</span>
+      </td>
+      {columns.map((column, columnIdx) =>
         <Cell
-          key={key}
-          columnKey={key}
-          rowKey={row.name}
+          key={columnIdx}
           name={row.name}
-          content={row[key]}
-          structure={structure}
-          isSelected={columnSelectedInThisRow === key}
-          styles={styles || emptyStyles}
+          content={row[column.key]}
+          rowIdx={rowIdx}
+          columnIdx={columnIdx}
+          structure={column.structure}
           onClick={onCellClick}
+          selected={selectedCell === columnIdx}
+          styles={column.styles || emptyStyles}
         />)}
-    </div>
+    </tr>
   )
 })
 
-const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, onClick, isSelected}) => {
+const Cell =  React.memo(({name, content, rowIdx, structure, columnIdx, styles, onClick, selected})  => {
   eventCounter('Cell')
   return (
-    <div onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
+    <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
       { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
-    </div>
+    </td>
   )
 })
+
 
 class Table extends PureComponent {
   state = {
@@ -55,55 +57,29 @@ class Table extends PureComponent {
     this.setState({rows: this.state.rows.filter(row => row !== rowToDelete)})
   }
 
-  renderRow = ({index, style}) => {
-    if (index === 0) {
-      return this.renderHeader()
-    }
-
-    const row = this.state.rows[index+1]
-    return <Row
-      style={style}
-      key={row.name}
-      rowId={row.name}
-      row={row}
-      columns={this.props.columns}
-      columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
-      onCellClick={this.setActiveCell}
-      onRemoveClick={this.removeRow}
-    />
-  }
-
-  renderHeader(){
-    return <div className='row header'>
-      <div className='cell headerCell'>Actions</div>
-      {
-        this.props.columns.map(
-          column => <HeaderCell key={column.key} name={column.name}/>
-        )
-      }
-    </div>
-  }
-
   render() {
     eventCounter('Table')
-
     const {columns} =this.props
     const {rows} = this.state
     return (
-      <div className='grid'>
-        {this.renderHeader()}
-        {rows.map( row =>
+      <table>
+        <thead>
+          <tr>{columns.map(column => <HeaderCell key={column.key} name={column.name}/>)}</tr>
+        </thead>
+        <tbody>
+        {rows.map((row, rowIdx)=>
           <Row
-            key={row.name}
-            rowId={row.name}
+            key={rowIdx}
             row={row}
             columns={columns}
-            columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
+            rowIdx={rowIdx}
+            selectedCell={this.state.activeRow === rowIdx && this.state.activeColumn}
             onCellClick={this.setActiveCell}
-            onRemoveClick={this.removeRow}
+            onClickRemove={this.removeRow}
           />
         )}
-      </div>
+        </tbody>
+      </table>
     )
   }
 }

@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-import Task from './task0'
+import Task from './task5'
 import rows from './lib/countriesAll.json'
-
-// to uncomment during task 2
-// import {whyDidYouUpdate} from 'why-did-you-update'
-// whyDidYouUpdate(React, {groupByComponent:true, collapseComponentGroups: true})
-
+import {whyDidYouUpdate} from 'why-did-you-update'
+whyDidYouUpdate(React)
 class App extends Component {
   state = {
     toggle: true
@@ -33,7 +30,7 @@ class App extends Component {
     ]
 
     return (
-      <main className='night'>
+      <main className={this.state.toggle ? 'night': 'day'}>
         <button type="button" onClick={this.handleToggle} >
           {this.state.toggle ? 'light theme' : 'dark theme'}
         </button>

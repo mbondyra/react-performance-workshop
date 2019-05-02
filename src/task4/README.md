@@ -19,4 +19,4 @@ Files used to finish the task 4: task4/index.js
 
 ## WAY AHEAD OF THE GROUP?
 
-1. Implement remove Column functionality. Oh, that's a tough one!
+1. When user clicks on a 'population' header, reorder countries from the biggest to the smaller. You only need one render of one component to achieve it. Do you know which one?

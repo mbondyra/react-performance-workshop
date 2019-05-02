@@ -158,3 +158,11 @@ header{
     padding: 0;
     vertical-align: middle;
   }
+
+  .highlighted thead{
+    background: rgba(251, 141, 130, 0.2)
+  }
+
+  .highlighted tr:nth-child(2n){
+    background: rgba(251, 141, 130, 0.1)
+  }

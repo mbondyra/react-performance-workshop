@@ -18,19 +18,18 @@ const Row = React.memo(({row, rowIdx, columns, onCellClick, selectedCell}) => {
       content={row[column.key]}
       rowIdx={rowIdx}
       columnIdx={columnIdx}
-      structure={column.structure}
+      column={column}
       onClick={onCellClick}
       selected={selectedCell === columnIdx}
-      styles={column.styles || emptyStyles}
     />)}
   </tr>
 })
 
-const Cell =  React.memo(({name, content, rowIdx, structure, columnIdx, styles, onClick, selected})  => {
+const Cell =  React.memo(({name, content, rowIdx, column, columnIdx, onClick, selected})  => {
   eventCounter('Cell')
   return (
     <td onClick = {()=>onClick(rowIdx, columnIdx)} className={selected ? 'selected' : ''}>
-      { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
+      { column.structure === 'image' ? <img src={content} style={column.styles} alt={name}/> : content }
     </td>
   )
 })

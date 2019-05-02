@@ -2,37 +2,31 @@
 
 Files used to finish the task 2: task2/index.js
 
-## STEP 1: New debugging tools
+## STEP 1: New debugging tool why-did-you-update
 
-  1. There are two new tools that help to make our app more performant
-    1.1. whyDidYouUpdate - it's a small npm package that monkey patches React and notifies you in the console when potentially unnecessary re-renders occur. To make it work, add these lines to App.js file:
+  1. whyDidYouUpdate - it's a small npm package that monkey patches React and notifies you in the console when potentially unnecessary re-renders occur. To make it work, add these lines to App.js file:
 
-    ```javascript
+  ```javascript
     import {whyDidYouUpdate} from 'why-did-you-update'
     whyDidYouUpdate(React)
-    ```
+  ```
 
-    1.2. Custom eventCounter logs the renders on the screen so we don’t have to run React Profiler every time. Everytime you want to log an event just place `eventCounter(nameOfEvent)` in the code. Check how it works when toggling the theme button. What components are being rerendered? Which ones would be rerendered without corrections from task1?
+  2. In task2 new functionality appeared - click on the header and you'll see that extra styles that increase readability appear. Unfortunately, the app works very slow. Using why-did-you-update and checking what it logs figure out which components' rerender could be avoided.
 
-## STEP 2: Fixing a new 'select' functionality
+## STEP 2: Fix the performance of the app
 
-  1. There is a new functionality implemented - get to know the changes in the code and click on the any cell - notice it's being selected.
-
-  2. But why are all the rows and cells being re-rendered? How many of them do actually change props they receive? Debug it with why-did-you-update and eventCounter.
-
-  3. Limit re-renders of rows to maximum 2 and cells to maximum 2. Don't rererender components that don't change.
-
-  4. Hint: there are at least two different approaches for solving this problem.
+  1. Make corrections in the code so the only re-rendered component is Table.
+  2. IMPORTANT NOTE: Start from HeaderCell and Cell, leave Row as the last one because it's the hardest one.
 
 ## STEP 3: Need help?
 
   1. Stuck? Remember that:
 
-    * You shouldn’t create any objects that will become props in render method if you don’t want children to be re-rendered
-    * This.props.children is cool, but https://github.com/facebook/react/issues/8669
-    * On every click you’re passing activeCell=[row, column] to every single cell = every cell gets rerendered because the props change. What if instead you’d pass information specific to the cell itself (hint: selected ={true | false})
     * The rules from the first exercise still apply!
+    * Read what's whyDidYouUpdate says
+    * Don't create objects in render method
     * Function and Array is an object in JS (inherits from object)
+    * This.props.children is cool, but https://github.com/facebook/react/issues/8669 - you can either change the design of the app OR use shouldComponentUpdate to limit renders
 
 ## WAY AHEAD OF THE GROUP?
 

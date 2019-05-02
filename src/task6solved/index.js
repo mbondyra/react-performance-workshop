@@ -1,7 +1,9 @@
-import React, { PureComponent } from 'react'
-
+import React, { PureComponent, Suspense } from 'react'
 import eventCounter from '../lib/eventCounter'
 import { FixedSizeList as List } from 'react-window'
+import _ from 'lodash'
+
+const Map = React.lazy(() => import('../map'))
 
 const emptyStyles = {}
 
@@ -49,7 +51,11 @@ class Table extends PureComponent {
     activeRow: null,
     activeColumn: null,
     rows: this.props.rows,
-    columns: this.props.columns
+    latLng: null
+  }
+
+  getLatLng = () => {
+    return (this.state.rows.find(row => row.name === this.state.activeRow )||{}).latlng
   }
 
   setActiveCell = (activeRow, activeColumn) => {
@@ -65,8 +71,9 @@ class Table extends PureComponent {
       return this.renderHeader()
     }
 
-    const row = this.state.rows[index+1]
+    const row = this.state.rows[index-1]
     return <Row
+      style={style}
       key={row.name}
       rowId={row.name}
       row={row}
@@ -74,6 +81,7 @@ class Table extends PureComponent {
       columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
       onCellClick={this.setActiveCell}
       onRemoveClick={this.removeRow}
+      onMapClick={this.loadMap}
     />
   }
 
@@ -81,9 +89,7 @@ class Table extends PureComponent {
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>
       {
-        this.props.columns.map(
-          column => <HeaderCell key={column.key} name={column.name}/>
-        )
+        _.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>)
       }
     </div>
   }
@@ -92,16 +98,24 @@ class Table extends PureComponent {
     eventCounter('Table')
     const {rows} = this.state
     return (
-      <div className='grid'>
-        <List
-          height={window.innerHeight}
-          itemCount={rows.length + 1}
-          itemSize={90}
-          width={1000}
-          itemData={[this.state.activeRow, this.state.activeColumn]}
-        >
-          {this.renderRow}
-        </List>
+      <div>
+        {this.state.activeColumn === 'name' &&
+        <Suspense
+          fallback={<div className='mapContainer'>Loading...</div>}>
+          <Map latLng={this.getLatLng()} />
+        </Suspense>
+        }
+        <div className='grid'>
+          <List
+            height={window.innerHeight}
+            itemCount={rows.length}
+            itemSize={90}
+            width={1000}
+            itemData={[this.state.activeRow, this.state.activeColumn]}
+          >
+            {this.renderRow}
+          </List>
+        </div>
       </div>
     )
   }

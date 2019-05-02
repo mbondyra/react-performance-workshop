@@ -1,13 +1,23 @@
 import React, { PureComponent } from 'react'
 
-const HeaderCell = ({name, onClick}) => {
+const HeaderCell = React.memo(({name, onClick}) => {
   return <th onClick={onClick}>{name}</th>
-}
+})
 
-class Row extends React.Component {
+
+const emptyStyles = {}
+
+class Row extends PureComponent {
   render(){
     return <tr>
-      {this.props.children}
+      {this.props.columns.map((column, columnIdx) => (
+        <Cell
+          key={columnIdx}
+          row={this.props.row}
+          column={column}
+          styles={column.styles || emptyStyles}
+        />
+      ))}
     </tr>
   }
 }
@@ -20,16 +30,18 @@ class Cell extends PureComponent {
       </td>
     )
   }
-
 }
-
 class Table extends PureComponent {
-  state = { highlightEverySecond: false }
+  state = { highlightEverySecondRow: false }
+
+  toggleHighlightEverySecondRow = () => {
+    this.setState({highlightEverySecondRow: !this.state.highlightEverySecondRow})
+  }
 
   render() {
     const columns = this.props.columns
     return (
-      <table className={this.state.highlightEverySecond ? 'highlighted': ''}>
+      <table className={this.state.highlightEverySecondRow ? 'highlighted': ''}>
         <thead>
           <tr>
             {
@@ -37,7 +49,7 @@ class Table extends PureComponent {
                 <HeaderCell
                   key={columnIdx}
                   name={column.name}
-                  onClick={() => this.setState({highlightEverySecond: !this.state.highlightEverySecond}) }
+                  onClick={this.toggleHighlightEverySecondRow}
                 />
               ))
             }
@@ -45,16 +57,7 @@ class Table extends PureComponent {
         </thead>
         <tbody>
           {this.props.rows.map((row, rowIdx) =>  (
-            <Row key={rowIdx}>
-              {columns.map((column, columnIdx) => (
-              <Cell
-                key={columnIdx}
-                row={row}
-                column={column}
-                styles={column.styles || {}}
-              />
-              ))}
-            </Row>
+            <Row key={rowIdx} row={row} columns={columns}/>
           ))}
         </tbody>
       </table>

@@ -1,10 +1,13 @@
 import React, { PureComponent } from 'react'
 
-const HeaderCell = ({name, onClick}) => {
+const HeaderCell = React.memo(({name, onClick}) => {
   return <th onClick={onClick}>{name}</th>
-}
+})
 
-class Row extends React.Component {
+class Row extends PureComponent {
+  shouldComponentUpdate(nextProps){
+    return false
+  }
   render(){
     return <tr>
       {this.props.children}
@@ -20,16 +23,20 @@ class Cell extends PureComponent {
       </td>
     )
   }
-
 }
 
+const emptyStyles = {}
 class Table extends PureComponent {
-  state = { highlightEverySecond: false }
+  state = { highlightEverySecondRow: false }
+
+  toggleHighlightEverySecondRow = () => {
+    this.setState({highlightEverySecondRow: !this.state.highlightEverySecondRow})
+  }
 
   render() {
     const columns = this.props.columns
     return (
-      <table className={this.state.highlightEverySecond ? 'highlighted': ''}>
+      <table className={this.state.highlightEverySecondRow ? 'highlighted': ''}>
         <thead>
           <tr>
             {
@@ -37,7 +44,7 @@ class Table extends PureComponent {
                 <HeaderCell
                   key={columnIdx}
                   name={column.name}
-                  onClick={() => this.setState({highlightEverySecond: !this.state.highlightEverySecond}) }
+                  onClick={this.toggleHighlightEverySecondRow}
                 />
               ))
             }
@@ -51,7 +58,7 @@ class Table extends PureComponent {
                 key={columnIdx}
                 row={row}
                 column={column}
-                styles={column.styles || {}}
+                styles={column.styles || emptyStyles}
               />
               ))}
             </Row>

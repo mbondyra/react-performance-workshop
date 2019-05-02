@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react'
 import { FixedSizeList as List } from 'react-window'
-import _ from 'lodash'
 import eventCounter from '../lib/eventCounter'
-import Map from './map'
 const emptyStyles = {}
 
 const HeaderCell = React.memo(({name}) => {
@@ -11,7 +9,7 @@ const HeaderCell = React.memo(({name}) => {
 })
 
 const Row = React.memo(({style, row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
-  eventCounter('Row')
+  eventCounter('Row');
   return (
     <div className='row' style={style}>
       <div className='trash cell' onClick={()=> onRemoveClick(row)}>
@@ -43,17 +41,10 @@ const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, o
 })
 
 class Table extends PureComponent {
-
-
   state = {
     activeRow: null,
     activeColumn: null,
     rows: this.props.rows,
-    latLng: null
-  }
-
-  getLatLng = () => {
-    return (this.state.rows.find(row => row.name === this.state.activeRow )||{}).latlng
   }
 
   setActiveCell = (activeRow, activeColumn) => {
@@ -69,7 +60,7 @@ class Table extends PureComponent {
       return this.renderHeader()
     }
 
-    const row = this.state.rows[index-1]
+    const row = this.state.rows[index+1]
     return <Row
       style={style}
       key={row.name}
@@ -79,34 +70,39 @@ class Table extends PureComponent {
       columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
       onCellClick={this.setActiveCell}
       onRemoveClick={this.removeRow}
-      onMapClick={this.loadMap}
     />
   }
 
   renderHeader(){
     return <div className='row header'>
       <div className='cell headerCell'>Actions</div>
-      {_.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>)}
+      {
+        this.props.columns.map(
+          column => <HeaderCell key={column.key} name={column.name}/>
+        )
+      }
     </div>
   }
 
   render() {
     eventCounter('Table')
-    const {rows, activeColumn, activeRow} = this.state
+
+    const {columns} =this.props
+    const {rows} = this.state
     return (
-      <div>
-        {this.state.activeColumn === 'name' && <Map latLng={this.getLatLng()} />}
-        <div className='grid'>
-          <List
-            height={window.innerHeight}
-            itemCount={rows.length}
-            itemSize={90}
-            width={window.innerWidth}
-            itemData={[activeRow, activeColumn]}
-          >
-            {this.renderRow}
-          </List>
-        </div>
+      <div className='grid'>
+        {this.renderHeader()}
+        {rows.map( row =>
+          <Row
+            key={row.name}
+            rowId={row.name}
+            row={row}
+            columns={columns}
+            columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
+            onCellClick={this.setActiveCell}
+            onRemoveClick={this.removeRow}
+          />
+        )}
       </div>
     )
   }
