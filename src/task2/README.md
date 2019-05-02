@@ -1,4 +1,4 @@
-# WARMUP
+# PROPER PROPS
 
 Files used to finish the task 2: task2/index.js
 
@@ -23,7 +23,7 @@ Files used to finish the task 2: task2/index.js
   1. Stuck? Remember that:
 
     * The rules from the first exercise still apply!
-    * Read what's whyDidYouUpdate says
+    * Use whyDidYouUpdate
     * Don't create objects in render method
     * Function and Array is an object in JS (inherits from object)
     * This.props.children is cool, but https://github.com/facebook/react/issues/8669 - you can either change the design of the app OR use shouldComponentUpdate to limit renders

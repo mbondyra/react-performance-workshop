@@ -40,6 +40,18 @@ const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, o
   )
 })
 
+const exampleList = [
+  {
+    text: 'Hello',
+  },
+  {
+    text: 'ReactJS Girls'
+  },
+  {
+    text: 'How are you?'
+  }
+]
+
 class Table extends PureComponent {
   state = {
     activeRow: null,
@@ -91,7 +103,21 @@ class Table extends PureComponent {
     const {rows} = this.state
     return (
       <div className='grid'>
+        <List
+          itemCount={exampleList.length}
+          height={200}
+          itemSize={100}
+          width={1000}
+        >
+          {({index, style}) => (
+            <div style={style}>
+              {exampleList[index].text}
+            </div>
+          )}
+        </List>
+
         {this.renderHeader()}
+
         {rows.map( row =>
           <Row
             key={row.name}

@@ -6,7 +6,7 @@ Files used to finish the task 5: task5/index.js
 
 1. Looks like our app looks pretty neatly. But do we need to render all the 250 rows at the start of the app? Here's where react-window will help.
 
-2. Take a look at the component <ExampleList>. After getting familiar with documentation and the <ExampleList/> use react-window for the Table.
+2. Take a look at the example List. After getting familiar with documentation (https://github.com/bvaughn/react-window) and the  use react-window for row generation.
 
 ## WAY AHEAD OF THE GROUP?
 

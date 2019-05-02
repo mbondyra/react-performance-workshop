@@ -1,4 +1,4 @@
-# WARMUP
+# PROPER PROPS
 
 Files used to finish the task 3: task3/index.js
 
